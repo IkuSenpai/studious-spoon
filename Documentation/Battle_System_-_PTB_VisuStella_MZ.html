@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Battle System - PTB VisuStella MZ - Yanfly.moe Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Battle_System_-_PTB_VisuStella_MZ","wgTitle":"Battle System - PTB VisuStella MZ","wgCurRevisionId":16812,"wgRevisionId":16812,"wgArticleId":2883,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["RPG Maker MZ Plugins","RPG Maker MZ Extension Plugins","RPG Maker MZ Tier 2 Plugins","Notetags (MZ)","Plugin Commands (MZ)","RPG Maker MZ Battle Plugins","RPG Maker MZ Gameplay Plugins","RPG Maker MZ Utility Plugins","RPG Maker MZ Mechanical Plugins","RPG Maker MZ Visual Plugins"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Battle_System_-_PTB_VisuStella_MZ","wgRelevantArticleId":2883,"wgRequestId":"Zr28GAAoDqk8pjEaQWEXwgAAAMc","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.2"/>
+<link rel="shortcut icon" href="/wiki/images/icon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Yanfly.moe Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://www.yanfly.moe/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Yanfly.moe Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Battle_System_-_PTB_VisuStella_MZ rootpage-Battle_System_-_PTB_VisuStella_MZ skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Battle System - PTB VisuStella MZ</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Yanfly.moe Wiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><span class="nomobile">
+</span></p>
+<table style="width: 100%; margin: 5px auto; text-align: center; border: none;">
+<tbody><tr>
+<td>
+<a href="http://www.yanfly.moe/wiki/Category:Yanfly_Engine_Plugins"><img src="https://img.itch.zone/aW1nLzE5NzI3NzYucG5n/original/wpb0Ze.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/"><img src="https://img.itch.zone/aW1nLzQwMzg4MjYucG5n/315x250%23c/sBmlSn.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/access-key-visustella-mz"><img src="https://img.itch.zone/aW1nLzY3MjkyODMucG5n/original/2Cr5JK.png" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Category:%C3%86kashics_Librarium"><img src="http://yanfly.moe/wp-content/uploads/2019/05/pdrbanner.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Caz_Wolf'><img src='https://img.itch.zone/aW1nLzMxMjExMTYuZ2lm/180x143%23c/bqW0Kd.gif' width='170'></a> -->
+<a href="https://store.steampowered.com/app/2937520/Sacred_Earth__Reverie/"><img src="http://www.yanfly.moe/wiki/images/0/0b/SacredEarthRevGif.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Luna_Engine_MV_(Visustella)"><img src="https://img.itch.zone/aW1nLzIxNjQ5MTkuZ2lm/original/IGNDo7.gif" width="170" /></a>
+<a href="https://pixelodyssey.itch.io/2500-fantasy-rpg-icons"><img src="https://img.itch.zone/aW1hZ2UvNjM0OTU1LzMzOTM3MTIuZ2lm/250x600/4ggWwH.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Fallen_Angel_Olivia"><img src="http://yanfly.moe/img/sidebar/OliviaLink.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Atelier_Irina'><img src='https://img.itch.zone/aW1nLzI5MjM1MTguZ2lm/original/y1jQXb.gif' width='170'></a> -->
+<!-- <a href='http://www.yanfly.moe/wiki/Visual_Item_Inventory_(Arisu)'><img src='https://img.itch.zone/aW1hZ2UvNDg1OTQwLzI1MDgzODIucG5n/original/9tfprF.png' width='170'></a> -->
+
+</td></tr></tbody></table>
+<p class="mw-empty-elt">
+</p>
+<div style="width: 75%; margin: auto; background: #161616; border: 1px solid #111;"><div style="background: #252525; border: 1px solid #252525; padding: 5px; margin: 3px; font-weight: bold; text-align: center;">Welcome to the wiki! This is where you can find resources from <a rel="nofollow" class="external text" href="http://www.yanfly.moe">Yanfly.moe</a>, <a rel="nofollow" class="external text" href="https://aekashics.itch.io/">Ækashics.moe</a>, <br />
+<a rel="nofollow" class="external text" href="http://www.visustella.com/">VisuStella</a>, <a rel="nofollow" class="external text" href="https://cazwolf.itch.io/">Caz Wolf</a>, <a rel="nofollow" class="external text" href="https://fallenangelolivia.itch.io/">Fallen Angel Olivia</a>, <a rel="nofollow" class="external text" href="https://atelieririna.itch.io/">Atelier Irina</a>, and other affiliated content creators.</div></div>
+<p><br />
+</p>
+<div style="float: right; margin-left: 1em;"><div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1"><a href="#Download"><span class="tocnumber">1</span> <span class="toctext">Download</span></a></li>
+<li class="toclevel-1"><a href="#System"><span class="tocnumber">2</span> <span class="toctext">System</span></a></li>
+<li class="toclevel-1"><a href="#Required_Plugins"><span class="tocnumber">3</span> <span class="toctext">Required Plugins</span></a></li>
+<li class="toclevel-1"><a href="#VisuStella_MZ"><span class="tocnumber">4</span> <span class="toctext">VisuStella MZ</span></a></li>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">5</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Requirements"><span class="tocnumber">6</span> <span class="toctext">Requirements</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Required_Plugin_List"><span class="tocnumber">6.1</span> <span class="toctext">Required Plugin List</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Major_Changes"><span class="tocnumber">7</span> <span class="toctext">Major Changes</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Surprise_Attacks_and_Preemptive_Bonuses"><span class="tocnumber">7.1</span> <span class="toctext">Surprise Attacks and Preemptive Bonuses</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Agility_and_Speed"><span class="tocnumber">7.2</span> <span class="toctext">Agility and Speed</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Action_Orders"><span class="tocnumber">7.3</span> <span class="toctext">Action Orders</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Turn_Structure"><span class="tocnumber">7.4</span> <span class="toctext">Turn Structure</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Turn_Count_for_Enemies"><span class="tocnumber">7.5</span> <span class="toctext">Turn Count for Enemies</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#How_Press_Mechanics_Work"><span class="tocnumber">8</span> <span class="toctext">How Press Mechanics Work</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Press_Action_Counts"><span class="tocnumber">8.1</span> <span class="toctext">Press Action Counts</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Scenarios"><span class="tocnumber">8.2</span> <span class="toctext">Scenarios</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Post-Gains"><span class="tocnumber">8.3</span> <span class="toctext">Post-Gains</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Notetags"><span class="tocnumber">9</span> <span class="toctext">Notetags</span></a>
+<ul>
+<li class="toclevel-2"><a href="#General_PTB-Related_Notetags"><span class="tocnumber">9.1</span> <span class="toctext">General PTB-Related Notetags</span></a></li>
+<li class="toclevel-2"><a href="#Press_Action_Cost-Related_Notetags"><span class="tocnumber">9.2</span> <span class="toctext">Press Action Cost-Related Notetags</span></a></li>
+<li class="toclevel-2"><a href="#Post_Gain-Related_Notetags"><span class="tocnumber">9.3</span> <span class="toctext">Post Gain-Related Notetags</span></a></li>
+<li class="toclevel-2"><a href="#Mechanics-Related_Notetags"><span class="tocnumber">9.4</span> <span class="toctext">Mechanics-Related Notetags</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Plugin_Commands"><span class="tocnumber">10</span> <span class="toctext">Plugin Commands</span></a>
+<ul>
+<li class="toclevel-2"><a href="#System_Plugin_Commands"><span class="tocnumber">10.1</span> <span class="toctext">System Plugin Commands</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Plugin_Parameters"><span class="tocnumber">11</span> <span class="toctext">Plugin Parameters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#General_Settings"><span class="tocnumber">11.1</span> <span class="toctext">General Settings</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Mechanics_Settings"><span class="tocnumber">11.2</span> <span class="toctext">Mechanics Settings</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Press_Mechanics"><span class="tocnumber">11.3</span> <span class="toctext">Press Mechanics</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Sound_Feedback"><span class="tocnumber">11.4</span> <span class="toctext">Sound Feedback</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Press_Count_Display_Settings"><span class="tocnumber">11.5</span> <span class="toctext">Press Count Display Settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Credits"><span class="tocnumber">12</span> <span class="toctext">Credits</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Changelog"><span class="tocnumber">13</span> <span class="toctext">Changelog</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#See_Also"><span class="tocnumber">14</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#End_of_File"><span class="tocnumber">15</span> <span class="toctext">End of File</span></a></li>
+</ul>
+</div>
+</div>
+
+<p><iframe width="800" height="450" src="//www.youtube-nocookie.com/embed/wSaGI5ODXII" frameborder="0" allowfullscreen=""></iframe>
+</p><p><br />
+</p>
+<table style="width: 800px;" cellspacing="5" cellpadding="5">
+<tbody><tr>
+<td style="width: 100%; border: 0px; vertical-align: top;" colspan="3">
+<h2><span class="mw-headline" id="Download">Download</span></h2>
+<ul><li class="mw-empty-elt"></li>
+<li><iframe frameborder="0" src="https://itch.io/embed/1232430" width="552" height="167"><a href="https://visustellamz.itch.io/battle-system-ptb">Battle System - PTB plugin for RPG Maker MZ by VisuStellaMZ</a></iframe></li>
+<li><iframe frameborder="0" src="https://itch.io/embed/1232423" width="552" height="167"><a href="https://visustellamz.itch.io/battle-technician-vol-2">[Access Key] Battle Technician Series Vol. 2 by VisuStellaMZ</a></iframe></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li></ul>
+</td></tr>
+<tr>
+<td style="width: 100%; border: 0px; vertical-align: top;" colspan="3">
+<h2><span class="mw-headline" id="System">System</span></h2>
+<p>This is a plugin created for <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>.
+</p>
+</td></tr>
+
+<tr>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/How_to_Install_Plugins_(RPG_Maker_MZ)" title="How to Install Plugins (RPG Maker MZ)"><img alt="InstallPluginsMz.png" src="/wiki/images/thumb/8/89/InstallPluginsMz.png/240px-InstallPluginsMz.png" width="240" height="135" srcset="/wiki/images/thumb/8/89/InstallPluginsMz.png/361px-InstallPluginsMz.png 1.5x, /wiki/images/thumb/8/89/InstallPluginsMz.png/480px-InstallPluginsMz.png 2x" /></a>
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ" title="How to Update Plugins RPG Maker MZ"><img alt="UpdatePlugins.png" src="/wiki/images/thumb/a/ac/UpdatePlugins.png/240px-UpdatePlugins.png" width="240" height="135" srcset="/wiki/images/thumb/a/ac/UpdatePlugins.png/361px-UpdatePlugins.png 1.5x, /wiki/images/thumb/a/ac/UpdatePlugins.png/480px-UpdatePlugins.png 2x" /></a>
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/Troubleshooting_Plugins_(RPG_Maker_MZ)" title="Troubleshooting Plugins (RPG Maker MZ)"><img alt="Troubleshooting.jpg" src="/wiki/images/thumb/9/94/Troubleshooting.jpg/207px-Troubleshooting.jpg" width="207" height="135" srcset="/wiki/images/thumb/9/94/Troubleshooting.jpg/311px-Troubleshooting.jpg 1.5x, /wiki/images/thumb/9/94/Troubleshooting.jpg/413px-Troubleshooting.jpg 2x" /></a>
+</p>
+</td></tr>
+
+<tr>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/How_to_Install_Plugins_(RPG_Maker_MZ)" class="mw-redirect" title="How to Install Plugins (RPG Maker MZ)">Click here</a> for help on how to install plugins and an explanation on the Tier Hierarchy System.
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ" title="How to Update Plugins RPG Maker MZ">Click here</a> to learn how to update plugins.
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/Troubleshooting_Plugins_(RPG_Maker_MZ)" class="mw-redirect" title="Troubleshooting Plugins (RPG Maker MZ)">Click here</a> for how to troubleshoot plugins if you get an error.
+</p>
+</td></tr></tbody></table>
+<p><script type="text/javascript" src="https://www.free-counters.org/count/dg89"></script><br />
+ <a href="https://www.acadoo.de/">Masterarbeit Writer</a> <script type="text/javascript" src="https://whomania.com/ctr?id=6bff02d7f5f798a6aa28f3a03024fdfe889d95d5"></script>
+</p><p><br />
+<a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Immune.gif" class="image"><img alt="BattleSys PTB Immune.gif" src="/wiki/images/1/1b/BattleSys_PTB_Immune.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Resist.gif" class="image"><img alt="BattleSys PTB Resist.gif" src="/wiki/images/0/09/BattleSys_PTB_Resist.gif" width="600" height="338" /></a>
+</p>
+<table style="width: 800px;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td style="width: 100%; vertical-align: top;">
+<h2><span class="mw-headline" id="Required_Plugins">Required Plugins</span></h2>
+<p>The following plugins are required in order to use this plugin. 
+</p><p>Place the following plugins above this plugin located in the Plugin Manager.
+</p>
+<ul><li><a href="/wiki/Core_Engine_VisuStella_MZ" title="Core Engine VisuStella MZ">Core Engine VisuStella MZ</a></li>
+<li><a href="/wiki/Battle_Core_VisuStella_MZ" title="Battle Core VisuStella MZ">Battle Core VisuStella MZ</a></li>
+<li><a href="/wiki/Items_and_Equips_Core_VisuStella_MZ" title="Items and Equips Core VisuStella MZ">Items and Equips Core VisuStella MZ</a></li>
+<li><a href="/wiki/Skills_and_States_Core_VisuStella_MZ" title="Skills and States Core VisuStella MZ">Skills and States Core VisuStella MZ</a></li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="VisuStella_MZ"><a href="/wiki/Category:Visustella#VisuStella_Plugins_for_RPG_Maker_MZ" title="Category:Visustella">VisuStella MZ</a></span></h2>
+<p>This plugin is a part of the <a href="/wiki/Category:Visustella#VisuStella_Plugins_for_RPG_Maker_MZ" title="Category:Visustella">VisuStella MZ</a> Plugin Library.
+</p><p><a href="https://www.patreon.com/Visustella" target="_blank"><img src="https://i.imgur.com/aZq430f.png" /></a>
+</p><p><a rel="nofollow" class="external text" href="https://www.patreon.com/Visustella">Click here if you want to help support VisuStella on Patreon.</a>
+</p>
+<h2><span class="mw-headline" id="Introduction">Introduction</span></h2>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>Press Turn Battle (PTB) is a team-based battle system made for RPG Maker MZ
+where the teams for actors and enemies take turns attacking one another as
+a whole, consuming press actions in the process. When press actions have
+been emptied, the turn switches over to the opposite team and it repeats.
+Depending on the results of actions, Press Actions may consume a full action
+or be converted into a half action, allowing for more actions per turn. This
+is a battle system that rewards skillful play and punishes bad strategies.
+</p>
+<ul><li>NOTE* To use this battle system, you will need the updated version of</li></ul>
+<p>VisuStella's Core Engine. Go into its Plugin Parameters and change the
+"Battle System" plugin parameter to "ptb".
+</p><p>Features include all (but not limited to) the following:
+</p>
+<ul><li>Actor and enemy teams take turns attacking each other as a whole.</li>
+<li>Press action counts are given to each team at the start of each turn to utilize individual actions for.</li>
+<li>Good strategies such as hitting weaknesses, guarding, or landing critical hits will convert a full action into a half action, allowing for more actions to be used per turn.</li>
+<li>Bad strategies such as hitting resistances, missing attacks, or getting an attack reflected will punish the team by removing press actions available.</li>
+<li>A system of scenarios, outcomes, with varying priority levels will allow you to fine tune the results of an action to your liking.</li>
+<li>Alter the mechanics of the Battle System PTB to your liking through the Plugin Parameters.</li>
+<li>A Press Count Display is shown for each side to relay information to the player about the current state of each turn.</li></ul>
+<h2><span class="mw-headline" id="Requirements">Requirements</span></h2>
+<p>This plugin is made for RPG Maker MZ. This will not work in other iterations
+of RPG Maker.
+</p>
+<h3><span class="mw-headline" id="Required_Plugin_List">Required Plugin List</span></h3>
+<ul><li><a href="/wiki/Core_Engine_VisuStella_MZ" title="Core Engine VisuStella MZ">Core Engine VisuStella MZ</a></li>
+<li><a href="/wiki/Battle_Core_VisuStella_MZ" title="Battle Core VisuStella MZ">Battle Core VisuStella MZ</a></li>
+<li><a href="/wiki/Items_and_Equips_Core_VisuStella_MZ" title="Items and Equips Core VisuStella MZ">Items and Equips Core VisuStella MZ</a></li>
+<li><a href="/wiki/Skills_and_States_Core_VisuStella_MZ" title="Skills and States Core VisuStella MZ">Skills and States Core VisuStella MZ</a></li></ul>
+<p>This plugin requires the above listed plugins to be installed inside your
+game's Plugin Manager list in order to work. You cannot start your game with
+this plugin enabled without the listed plugins.
+</p><p><br />
+</p>
+<dl><dt><a href="/wiki/Category:Visustella#Tier_2" title="Category:Visustella">Tier 2</a></dt></dl>
+<p>This plugin is a Tier 2 plugin. Place it under other plugins of lower tier value on your Plugin Manager list (ie: 0, 1, 2, 3, 4, 5).
+</p><p>This is to ensure that your plugins will have the best compatibility with the rest of the <a href="/wiki/VisuStella_MZ" title="VisuStella MZ">VisuStella MZ</a> Plugin library.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Major_Changes">Major Changes</span></h2>
+<p>This plugin adds some new hard-coded features to RPG Maker MZ's functions.
+The following is a list of them.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Surprise_Attacks_and_Preemptive_Bonuses">Surprise Attacks and Preemptive Bonuses</span></h3>
+<p>Due to the nature of a team-based battle system, surprise attacks and
+preemptive bonuses no longer prevent the other team from being able to act
+for a turn as that gives the initiating team too much advantage. Instead,
+a surprise attack means the enemy team will always start first for each turn
+while a preemptive bonus means the actor team will always start first for
+each turn.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Agility_and_Speed">Agility and Speed</span></h3>
+<p>When there is no surprise attack or preemptive bonus, aka a neutral battle
+initiative, then the team that goes first is determined by their Agility
+value at the start of battle (unless determined otherwise through the Plugin
+Parameters).
+</p><p>As there is no free-range switching like with other team-based battle
+systems, the turn order in which the actors can perform actions will be
+based on their agility values. Battlers with higher AGI will go earlier
+while those with lower AGI go later.
+</p><p>Agility, however, can influence Press Counts through buffs and debuffs if
+enabled through the Plugin Parameters. Each stack of Agility buffs will
+raise the Press Count for a team while each stack of Agility debuffs will
+decrease them for subsequent turns.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Action_Orders">Action Orders</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Resist.gif" class="image"><img alt="BattleSys PTB Resist.gif" src="/wiki/images/0/09/BattleSys_PTB_Resist.gif" width="600" height="338" /></a>
+</p><p>As team-based battle systems always have teams go between each other, the
+standard action orders seen for turn-based and tick-based battle systems no
+longer exist. However, in the event the actor team has berserk, confused, or
+autobattlers, the actions will be performed in the following order:
+</p>
+<ol><li>Berserk, confused, and auto battlers go first.</li>
+<li>If any actions are left, inputtable actors go next.</li>
+<li>If any actions are left, but there are no inputtable actors, berserk, confused, and auto battlers use up the remaining actions.</li>
+<li>Switch to the next team.</li></ol>
+<p>For enemy teams, enemies will always go in order from highest-to-lowest AGI
+for both front view or right-to-left for sideview. If there are actions
+left, the enemy team will cycle back to the first acting enemy.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Turn_Structure">Turn Structure</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p>Each battle turn is dedicated to one team or the other. You need to design
+your turns with this in mind. When one team finishes its actions, the next
+turn will have the other team perform theirs.
+</p><p>As a result, both teams will not benefit from their turn end activities such
+as regeneration at the end of each battle turn. Instead, they will only
+occur at the end of their own respective turns.
+</p><p>However, for states and buffs, this is slightly different. States and buffs
+update at the end of the opposing team's turn. This is so that 1 turn states
+like Guard will last until the opponent's turn is over instead of being over
+immediately after the player's turn ends (rendering the effect useless).
+</p><p>The state and buff turn updates can be disabled in the Plugin Parameters.
+However, the durations must be accounted for if disabled (ie. making Guard
+last two turns instead of 1).
+</p><p>---
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Turn_Count_for_Enemies">Turn Count for Enemies</span></h3>
+<p>Because the turn structure is changed, enemies will now have a different
+turn count structure. Their turn count only raises when the enemy troops
+have a turn instead of every battle turn. This means if an enemy skill page
+has a Turn Count condition of 3, it'll mean when the enemy team has gotten
+3 turns, which will usually be around turn 6 for the whole battle.
+</p><p>---
+</p>
+<h2><span class="mw-headline" id="How_Press_Mechanics_Work">How Press Mechanics Work</span></h2>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>This section will explain how the Press Mechanics work.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Press_Action_Counts">Press Action Counts</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p>Each turn, the active team is given a number of actions they can perform.
+These actions can be divided up into full actions or half actions. Each team
+member that can act will generate a full action at the start of each turn.
+</p><p>Attacking, defending, skill usage, or item usage will consume actions. If
+there are half actions available, those will be consumed first. Otherwise,
+full actions will be consumed.
+</p><p>Once all full and half actions are consumed, the team's turn ends and it
+becomes the opposing team's turn to attack.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Scenarios">Scenarios</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Immune.gif" class="image"><img alt="BattleSys PTB Immune.gif" src="/wiki/images/1/1b/BattleSys_PTB_Immune.gif" width="600" height="338" /></a>
+</p><p>Here are the various scenarios on what will happen. This is assuming that
+none of the settings in the Plugin Parameters have changed in regards to
+these scenarios.
+</p><p>If a scenario's outcome becomes permanent, it can no longer be changed from
+any other scenarios that happen later. Otherwise, the last scenario that
+happens will take priority.
+</p><p>Scenarios have priority levels. Whenever a scenario outcome with a higher
+priority occurs, that outcome's effects will take over. Priorities of equal
+or lower level will not override the current outcome settings.
+</p><p>Below are the scenarios listed from lowest to highest priority level:
+</p><p>---
+</p><p>Scenario: Performing any action with a "normal" outcome (hit) and dealing
+damage without hitting any weaknesses, resistances, immunities, absorptions,
+or reflections.
+</p><p>Outcome: (Consume) If there is a half action, consume the half action.
+Otherwise, consume one full action if there is no half action.
+</p><p>Priority: 0
+</p><p>---
+</p><p>Scenario: Performing an action that inflicts a state. This can be tricky.
+The state effect can miss and still be considered "normal", but if the
+action itself misses, this scenario is no longer valid.
+</p><p>Outcome: (Consume) If there is a half action, consume the half action.
+Otherwise, consume one full action if there is no half action.
+</p><p>Priority: 0
+</p><p>---
+</p><p>Scenario: An action lands a critical hit!
+</p><p>Outcome: (Convert) If there is a full action, convert that full action into
+a half action. Otherwise, consume the half action if no full action exists.
+This is a temporary outcome by will override a "normal" outcome.
+</p><p>Priority: 50
+</p><p>---
+</p><p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>Scenario: An action deals elemental damage and hits a weakness!
+</p><p>Outcome: (Convert) If there is a full action, convert that full action into
+a half action. Otherwise, consume the half action if no full action exists.
+This is a temporary outcome by will override a "normal" outcome.
+</p><p>Priority: 60
+</p><p>---
+</p><p>Scenario: An action completely misses. This does not refer to a state effect
+missing, but instead, the action's own success rate failing the dice roll or
+an enemy evades it.
+</p><p>Outcome: (Consume) If there are 2 half actions, consume both half actions.
+If there is a half and full action remaining, consume one of each. Otherwise
+consume two full actions. This outcome becomes the permanent outcome.
+</p><p>Priority: 80
+</p><p>---
+</p><p><a href="/wiki/File:BattleSys_PTB_Resist.gif" class="image"><img alt="BattleSys PTB Resist.gif" src="/wiki/images/0/09/BattleSys_PTB_Resist.gif" width="600" height="338" /></a>
+</p><p>Scenario: An action deals elemental damage and hits a resistance!
+</p><p>Outcome: (Consume) If there are 2 half actions, consume both half actions.
+If there is a half and full action remaining, consume one of each. Otherwise
+consume two full actions. This outcome becomes the permanent outcome.
+</p><p>Priority: 70
+</p><p>---
+</p><p><a href="/wiki/File:BattleSys_PTB_Immune.gif" class="image"><img alt="BattleSys PTB Immune.gif" src="/wiki/images/1/1b/BattleSys_PTB_Immune.gif" width="600" height="338" /></a>
+</p><p>Scenario: An action tries to do elemental damage but hits an immunity!
+</p><p>Outcome: (Consume) Consumes all half actions and full actions. This outcome
+becomes the permanent outcome.
+</p><p>Priority: 90
+</p><p>---
+</p><p>Scenario: An action tries to do elemental damage but is absorbed!
+</p><p>Outcome: (Consume) Consumes all half actions and full actions. This outcome
+becomes the permanent outcome.
+</p><p>Priority: 90
+</p><p>---
+</p><p>Scenario: An action tries to do elemental damage but is reflected!
+</p><p>Outcome: (Consume) Consumes all half actions and full actions. This outcome
+becomes the permanent outcome.
+</p><p>Priority: 90
+</p><p>---
+</p><p>Scenario: Using the Guard action.
+</p><p>Outcome: (Compress) If there is a half action, consume the half action.
+Otherwise, convert one full action into a half action. This outcome becomes
+the permanent outcome.
+</p><p>Priority: 100
+</p><p>---
+</p><p>As you can see, the scenario and outcome mechanic will favor punishment over
+reward, but will also favor reward over normal. The priority system is set
+up so that certain scenarios will not undo others. For example, a multi-hit
+attack that lands a critical hit but also a miss will still favor the miss.
+</p><p>These settings can be altered in the Plugin Parameters if they're not to
+your liking.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Post-Gains">Post-Gains</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p>Once changes are made to the full actions and half actions, it's time to end
+the action. However, not before some post-gains to be made. Some notetag
+effects allow actions to gain full actions and half actions after the fact.
+</p><p>As scenario outcomes cannot make turns go into the negatives (it always caps
+at zero), any post-gains made will always prolong a turn.
+</p><p>For example, let's assume there is a skill called "Phoenix Eye". It consumes
+an action but will grant 3 Half Actions.
+</p><p>In a scenario where a team has only a half action or full action left,
+"Phoenix Eye" will consume that action and return 3 Half Actions, still
+allowing the team to continue acting for the remainder of that turn.
+</p><p>---
+</p>
+<h2><span class="mw-headline" id="Notetags"><a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags</a></span></h2>
+<p><img src="https://img.itch.zone/aW1nLzQwMDQ3NzQucG5n/original/zLbbTl.png" />
+</p><p><a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>'s editor is unable to allow for custom traits/properties that a game dev may wish to associate with a database object, event, map, etc.  <a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags</a> are used to work around such limitations by allowing the game dev to tag certain traits/properties using specific Notetags declared by the related plugin.
+</p><p>Here is a list of <a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetag(s)</a> that you may use.
+</p><p><br />
+The following are notetags that have been added through this plugin. These
+notetags will not work with your game if this plugin is OFF or not present.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="General_PTB-Related_Notetags">General PTB-Related Notetags</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>These notetags are general purpose notetags that have became available
+through this plugin.
+</p><p>---
+</p>
+<pre>&lt;PTB Help&gt;
+ description
+ description
+&lt;/PTB Help&gt;
+
+- Used for: Skill, Item Notetags
+- If your game happens to support the ability to change battle systems, this
+  notetag lets you change how the skill/item's help description text will
+  look under PTB.
+- This is primarily used if the skill behaves differently in PTB versus any
+  other battle system.
+- Replace 'description' with help text that's only displayed if the game's
+  battle system is set to PTB.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Press_Action_Cost-Related_Notetags">Press Action Cost-Related Notetags</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p>---
+</p>
+<pre>&lt;PTB Press Consume: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to consume 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When consuming press actions, it will consume half actions before full
+  actions.
+- The consume/convert type can be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Press Convert: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to convert 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When converting press actions, it will convert full actions into half
+  actions. If there are no full actions to convert, it will instead consume
+  half actions.
+- The consume/convert type can be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Press Compress: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to compress 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When converting press actions, it will consume any half actions. If there
+  are no half actions, it will convert full actions into half actions.
+- The consume/convert type can be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Press Force Consume: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to consume 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When consuming press actions, it will consume half actions before full
+  actions.
+- The consume/convert type CANNOT be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Press Force Convert: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to convert 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When converting press actions, it will convert full actions into half
+  actions. If there are no full actions to convert, it will instead consume
+  half actions.
+- The consume/convert type CANNOT be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Press Force Compress: x&gt;
+
+- Used for: Skill, Item Notetags
+- Changes the PTB press action cost of this skill/item to compress 'x'.
+- Replace 'x' with a number value representing the press action cost
+  required to perform the skill.
+- When converting press actions, it will consume any half actions. If there
+  are no half actions, it will convert full actions into half actions.
+- The consume/convert type CANNOT be altered by the skill results.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Hide Press Cost&gt;
+
+- Used for: Skill, Item Notetags
+- Makes the PTB press cost for this skill/item hidden regardless of Plugin
+  Parameter settings.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Show Press Cost&gt;
+
+- Used for: Skill, Item Notetags
+- Makes the PTB press cost for this skill/item visible regardless of Plugin
+  Parameter settings.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Post_Gain-Related_Notetags">Post Gain-Related Notetags</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>---
+</p>
+<pre>&lt;PTB Post-Gain Full Actions: +x&gt;
+&lt;PTB Post-Lose Full Actions: -x&gt;
+
+- Used for: Skill, Item Notetags
+- Causes the user's team to gain full actions AFTER paying the action costs.
+- Replace 'x' with a number representing the amount of full actions to gain
+  or lose.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Post-Gain Half Actions: +x&gt;
+&lt;PTB Post-Lose Half Actions: -x&gt;
+
+- Used for: Skill, Item Notetags
+- Causes the user's team to gain half actions AFTER paying the action costs.
+- Replace 'x' with a number representing the amount of half actions to gain
+  or lose.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Mechanics-Related_Notetags">Mechanics-Related Notetags</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Immune.gif" class="image"><img alt="BattleSys PTB Immune.gif" src="/wiki/images/1/1b/BattleSys_PTB_Immune.gif" width="600" height="338" /></a>
+</p><p>---
+</p>
+<pre>&lt;PTB Pass Turn&gt;
+
+- Used for: Skill, Item Notetags
+- If a battler uses this skill/item, then even if there are actions left for
+  the team to perform, that battler would no longer be able to input as they
+  have already passed their turn.
+</pre>
+<p>---
+</p>
+<pre>&lt;PTB Full Actions: +x&gt;
+&lt;PTB Full Actions: -x&gt;
+
+- Used for: Actor, Class, Weapon, Armor, Enemy, State Notetags
+- Battlers associated with these trait objects can increase or decrease the
+  maximum number of full actions performed each turn.
+- Replace 'x' with a number representing the increase or decrease in action
+  count per turn.
+- Depending on the Plugin Parameters, altering the max value can result in
+  gaining or losing remaining actions for the current turn.
+</pre>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Plugin_Commands"><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands</a></span></h2>
+<p><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)"><img alt="PluginCommandsMZ.png" src="/wiki/images/f/f2/PluginCommandsMZ.png" width="600" height="300" /></a>
+</p><p><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands</a> are event commands that are used to call upon functions added by a plugin that aren't inherently a part of <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>.
+</p><p>Here is a list of <a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Command(s)</a> that you may use:
+</p><p>---
+</p><p><br />
+The following are Plugin Commands that come with this plugin. They can be
+accessed through the Plugin Command event command.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="System_Plugin_Commands">System Plugin Commands</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p>---
+</p><p><a href="/wiki/File:BattleSys_PTB_Command1.png" class="image"><img alt="BattleSys PTB Command1.png" src="/wiki/images/f/ff/BattleSys_PTB_Command1.png" width="488" height="526" /></a>
+</p>
+<pre>System: PTB Press Count Visibility
+- Determine the visibility of the PTB Press Count Display.
+
+  Visibility:
+  - Changes the visibility of the PTB Press Count Display.
+</pre>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Plugin_Parameters">Plugin Parameters</span></h2>
+<h3><span class="mw-headline" id="General_Settings">General Settings</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Param1.png" class="image"><img alt="BattleSys PTB Param1.png" src="/wiki/images/f/f5/BattleSys_PTB_Param1.png" width="458" height="448" /></a>
+</p><p>Determines the general settings of the PTB Battle System. These settings
+range from determining how the Press Count resources and costs are
+displayed to the text that appear during team shifting.
+</p><p>---
+</p><p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p>Press Counts
+</p>
+<pre> Full Name:
+ - What is the full name of "Press Counts" in your game?
+</pre>
+<pre> Abbreviation:
+ - What is the abbreviation of "Press Counts" in your game?
+</pre>
+<pre> Cost Format:
+ - How are Press Count costs displayed?
+ - %1 - Cost, %2 - Abbr Text, %3 - Icon
+</pre>
+<p>---
+</p><p>Icons
+</p>
+<pre> Cost Icons
+</pre>
+<pre>   Consume Icon:
+   - What icon is used to represent consumed costs?
+</pre>
+<pre>   Convert Icon:
+   - What icon is used to represent converted costs?
+</pre>
+<pre>   Compress Icon:
+   - What icon is used to represent compressed costs?
+</pre>
+<pre> Actors
+</pre>
+<pre>   Full Action Icon:
+   - What icon is used to represent actor full actions?
+</pre>
+<pre>   Half Action Icon:
+   - What icon is used to represent actor half actions?
+</pre>
+<pre> Enemies
+</pre>
+<pre>   Full Action Icon:
+   - What icon is used to represent actor full actions?
+</pre>
+<pre>   Half Action Icon:
+   - What icon is used to represent actor half actions?
+</pre>
+<pre> Empty Action Icon:
+ - What icon is used to represent empty actions?
+</pre>
+<p>---
+</p><p>Team Shift
+</p>
+<pre> Party's Turn:
+ - Text that appears when it's the party's turn.
+ - %1 - Party Name
+</pre>
+<pre> Enemy's Turn:
+ - Text that appears when it's the enemy's turn.
+</pre>
+<pre> Wait Frames:
+ - How many frames to wait in between team changes?
+</pre>
+<p>---
+</p><p>Displayed Costs
+</p>
+<pre> Cost Position Front?:
+ - Put the action cost at the front of skill/item costs?
+</pre>
+<pre> Show Cost: Attack:
+ - Show the action cost for the Attack command?
+</pre>
+<pre> Show Cost: Guard:
+ - Show the action cost for the Guard command?
+</pre>
+<pre> Show Cost: 0 Action:
+ - Show the action cost when the cost is 0 action?
+</pre>
+<pre> Show Cost: 1 Action:
+ - Show the action cost when the cost is 1 action?
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Mechanics_Settings">Mechanics Settings</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Weakness.gif" class="image"><img alt="BattleSys PTB Weakness.gif" src="/wiki/images/8/8a/BattleSys_PTB_Weakness.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Param2.png" class="image"><img alt="BattleSys PTB Param2.png" src="/wiki/images/e/e9/BattleSys_PTB_Param2.png" width="458" height="448" /></a>
+</p><p>Determines the mechanics of the PTB Battle System. From here, you can
+enable or disable core mechanics, determine how to determine turn advantage,
+and how the various supporting mechanics operate.
+</p><p>---
+</p><p>Main Mechanics
+</p>
+<pre> AGI Turn Order?:
+ - Determine if the battle turn flow will be based off AGI or not.
+</pre>
+<pre> Current Turn Revival Act?:
+ - Allow revived actors to act the current turn they're revived?
+</pre>
+<pre> Guard &gt; Pass Turn?:
+ - Does guarding cause a battler to pass turn?
+</pre>
+<pre> Gain Differences?:
+ - If the max Action Count for a team changes, gain the difference in
+   value if positive?
+</pre>
+<pre> Lose Differences?:
+ - If the max Action Count for a team changes, lose the difference in
+   value if negative?
+</pre>
+<pre> State/Buff Updates:
+ - If enabled, update state/buff turns only on opponent turns.
+ - Otherwise, they occur every turn.
+</pre>
+<p>---
+</p><p>Turn Advantage
+</p>
+<pre> Neutral Advantage:
+ - For a neutral advantage battle, what determines which team goes first?
+   - Random - 50% chance on which team goes first
+   - Player - Player's team always goes first.
+   - Lowest AGI - Battler with lowest AGI's team goes first
+   - Average AGI - Team with the highest average AGI goes first
+   - Highest AGI - Battler with highest AGI's team goes first
+   - Total AGI - Team with highest total AGI goes first
+</pre>
+<p>---
+</p><p>Action Generation
+</p>
+<pre> Base:
+ - What is the starting base number of actions that are generated per
+   battler each turn?
+</pre>
+<pre> AGI Buff Influence?:
+ - Do AGI buffs give +1 for each stack?
+</pre>
+<pre> AGI Debuff Influence?:
+ - Do AGI debuffs give -1 for each stack?
+</pre>
+<pre> Maximum Actions:
+ - What is the absolute maximum number of actions a team can have
+   each turn?
+</pre>
+<pre> Minimum Actions:
+ - What is the bare minimum number of actions a team can have each turn?
+</pre>
+<pre> Allow Overflow?:
+ - Allow current actions to overflow?
+ - Or let them cap at the current team max?
+</pre>
+<p>---
+</p><p>Default Press Costs
+</p>
+<pre> Skills:
+</pre>
+<pre>   Cost Type:
+   - What is the default press cost type for skills?
+</pre>
+<pre>   Cost Value:
+   - What is the default press cost value for skills?
+</pre>
+<pre> Items:
+</pre>
+<pre>   Cost Type:
+   - What is the default press cost type for items?
+</pre>
+<pre>   Cost Value:
+   - What is the default press cost value for items?
+</pre>
+<h3><span class="mw-headline" id="Press_Mechanics">Press Mechanics</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Immune.gif" class="image"><img alt="BattleSys PTB Immune.gif" src="/wiki/images/1/1b/BattleSys_PTB_Immune.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Param3.png" class="image"><img alt="BattleSys PTB Param3.png" src="/wiki/images/c/cb/BattleSys_PTB_Param3.png" width="458" height="448" /></a>
+</p><p>More indepth control over how the Press Count mechanics work for various
+scenarios during battle.
+</p><p>---
+</p><p>Guarding
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Miss an Attack
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Critical Hit!
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Elemental Resist!
+</p>
+<pre> Maximum Rate:
+ - What is the maximum elemental rate for an attack to be considered
+   a resistance?
+</pre>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Elemental Weakness!
+</p>
+<pre> Minimum Rate:
+ - What is the minimum elemental rate for an attack to be considered
+   a weakness?
+</pre>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Element Immunity!
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Absorb Element!
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p><p>Reflect Attack!
+</p>
+<pre> Alter Changeability:
+ - Allow the cost type and value to be changeable?
+   - Unchanged - Cost type is unchanged after this effect
+   - Permanent - Cost type can no longer be changed after
+   - Temporary - Cost type can still be changed after
+</pre>
+<pre> Alter Cost Type:
+ - Change the cost type to this scenario.
+ - Use 'Unchanged' for no changes.
+   - Unchanged - No changes are made
+   - Consume - Removes half, otherwise consumes full
+   - Convert - Converts full =&gt; half, otherwise consumes half
+   -Compress - Consumes half, otherwise converts full =&gt; half
+</pre>
+<pre> Alter Cost Value:
+ - What is the default action cost for this scenario?
+</pre>
+<pre> Priority:
+ - What is this scenario's priority? Scenario outcomes with equal or lower
+   priorities cannot override types and costs.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Sound_Feedback">Sound Feedback</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Resist.gif" class="image"><img alt="BattleSys PTB Resist.gif" src="/wiki/images/0/09/BattleSys_PTB_Resist.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Param4.png" class="image"><img alt="BattleSys PTB Param4.png" src="/wiki/images/7/79/BattleSys_PTB_Param4.png" width="458" height="448" /></a>
+</p><p>Sound effects for player feedback on in-battle changes to Press Counts.
+These sound effects are played only when certain results have happened in
+order to proc the correct sound effect. If multiple things happen at a time,
+the sound effect priority list will go as follows from top to bottom:
+</p><p>1. Lose &gt;1 Full Action
+2. Lose &gt;1 Half Action
+3. Gain Full Action
+4. Gain Half Action
+</p><p>---
+</p><p>Gain Full Action
+</p><p>Gain Half Action
+</p><p>Lose &gt;1 Full Action
+</p><p>Lose &gt;1 Half Action
+</p>
+<pre> Filename:
+ - Filename of the sound effect played.
+</pre>
+<pre> Volume:
+ - Volume of the sound effect played.
+</pre>
+<pre> Pitch:
+ - Pitch of the sound effect played.
+</pre>
+<pre> Pan:
+ - Pan of the sound effect played.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Press_Count_Display_Settings">Press Count Display Settings</span></h3>
+<p><a href="/wiki/File:BattleSys_PTB_Icons.png" class="image"><img alt="BattleSys PTB Icons.png" src="/wiki/images/f/f9/BattleSys_PTB_Icons.png" width="155" height="47" /></a>
+</p><p><a href="/wiki/File:BattleSys_PTB_Param5.png" class="image"><img alt="BattleSys PTB Param5.png" src="/wiki/images/c/ce/BattleSys_PTB_Param5.png" width="458" height="448" /></a>
+</p><p>Adjust the settings for the Press Count Display. They appear in the upper
+or lower corners of the screen for the player party and the enemy troop.
+</p><p>---
+</p><p>Display Settings
+</p>
+<pre> Draw Horizontally?:
+ - Which direction do you want the Press Count Display to go?
+</pre>
+<pre> Bottom Position?:
+ - Place the Press Count Display towards the bottom of the screen?
+</pre>
+<pre>   Offset Top Log Y?:
+   - If using the top position, offset the log window's Y position.
+</pre>
+<pre>   Reposition for Help?:
+   - If using the top position, reposition the display when the help window
+     is open?
+</pre>
+<p>---
+</p><p>Reposition For Help
+</p>
+<pre> Repostion X By:
+ Repostion Y By:
+ - Reposition the display's X/Y coordinates by this much when the
+   Help Window is visible.
+</pre>
+<p>---
+</p><p>Picture Settings
+</p>
+<pre> Actors:
+</pre>
+<pre>   Full Action Picture:
+   - Optional. Place an image for an actor full action instead of an icon?
+</pre>
+<pre>   Half Action Picture:
+   - Optional. Place an image for an actor half action instead of an icon?
+</pre>
+<pre> Enemies:
+</pre>
+<pre>   Full Action Picture:
+   - Optional. Place an image for an enemy full action instead of an icon?
+</pre>
+<pre>   Half Action Picture:
+   - Optional. Place an image for an enemy half action instead of an icon?
+</pre>
+<pre> Empty Action Picture:
+ - Optional. Place an image for an empty action instead of an icon?
+</pre>
+<p>---
+</p><p>Coordinates
+</p>
+<pre> Screen Buffer X:
+ Screen Buffer Y:
+ - Buffer from the the edge of the screen's X/Y by this much.
+</pre>
+<pre> Actor Offset X:
+ Actor Offset Y:
+ Enemy Offset X:
+ Enemy Offset Y:
+ - Offset the actor/enemy images' X/Y by this much.
+</pre>
+<p>---
+</p><p>Draw Settings
+</p>
+<pre> Max Actions Visible:
+ - How many action slots max should be drawn for each team?
+</pre>
+<pre> Image Size:
+ - What is the size of the icons or pictures for the action slots?
+</pre>
+<pre> Gap Distance:
+ - How wide should the gab between each slot be in pixels?
+</pre>
+<pre> Icon Smoothing?:
+ - Smooth the display for icons?
+ - Or pixelate them?
+</pre>
+<pre> Picture Smoothing?:
+ - Smooth the display for pictures?
+ - Or pixelate them?
+</pre>
+<p>---
+</p><p>Turns Remaining
+</p>
+<pre> Show Number?:
+ - Show a number to display the actions remaining?
+</pre>
+<pre> Font Size:
+ - What font size should be used for this number?
+</pre>
+<pre> Offset X:
+ Offset Y:
+ - Offset the remaining actions number X/Y.
+</pre>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Credits">Credits</span></h2>
+<p>If you are using this plugin, credit the following people in your game:
+</p><p>Team VisuStella
+</p>
+<ul><li><a href="/wiki/Yanfly" class="mw-redirect" title="Yanfly">Yanfly</a></li>
+<li><a href="/wiki/Olivia" class="mw-redirect" title="Olivia">Olivia</a></li>
+<li><a href="/wiki/Arisu" class="mw-redirect" title="Arisu">Arisu</a></li>
+<li><a href="/wiki/Irina" class="mw-redirect" title="Irina">Irina</a></li></ul>
+<h2><span class="mw-headline" id="Changelog">Changelog</span></h2>
+<p>Version 1.13: July 18, 2024
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug that caused custom picture graphics for Full and Half Press Turns to be swapped. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.12: May 16, 2024
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug where a recently revived actor cannot have its turn until the following turn. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.11: April 18, 2024
+</p>
+<ul><li>Documentation Update!
+<ul><li>Help file updated for new features.</li>
+<li>Updated the "Agility and Speed" section of "Major Changes" in help file:
+<ul><li>As of the v1.11 update, this can now be turned on/off and have AGI go in order based on party position. This can be altered in the Plugin Parameters' Mechanics section.</li></ul></li></ul></li>
+<li>New Features!
+<ul><li>New Plugin Parameters added by Olivia:
+<ul><li>Plugin Parameters &gt; Mechanics &gt; AGI Turn Order?
+<ul><li>Determine if the battle turn flow will be based off AGI or not.</li></ul></li></ul></li></ul></li></ul>
+<p><br />
+</p><p>Version 1.10: March 14, 2024
+</p>
+<ul><li>Documentation Update!
+<ul><li>Help file updated for new features.</li></ul></li>
+<li>New Features!
+<ul><li>New Plugin Parameters added by Olivia:
+<ul><li>Plugin Parameters &gt; Mechanics &gt; Current Turn Revival Act?:
+<ul><li>Allow revived actors to act the current turn they're revived?</li></ul></li></ul></li></ul></li></ul>
+<p><br />
+</p><p>Version 1.09: January 18, 2024
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug that would cause elemental resistances to not trigger press turn effects. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.08: December 14, 2023
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Enemy skills with Turn Count conditions will now apply a local turn count instead of the battle turn count. Fix made by Olivia.</li></ul></li>
+<li>Documentation Update!
+<ul><li>Updated "Major Changes" section:
+<ul><li>Turn Count for Enemies
+<ul><li>Because the turn structure is changed, enemies will now have a different turn count structure. Their turn count only raises when the enemy troops have a turn instead of every battle turn. This means if an enemy skill page has a Turn Count condition of 3, it'll mean when the enemy team has gotten 3 turns, which will usually be around turn 6 for the whole battle.</li></ul></li></ul></li></ul></li></ul>
+<p><br />
+</p><p>Version 1.07: January 20, 2023
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Custom graphics for press turn icons should now be working properly. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.06: October 20, 2022
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed problem with the Action Count Display's Actor Offset Y not working properly. Fix made by Arisu.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.05: June 2, 2022
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug where Force Actions do not work when there's only one action left for the turn. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.04: April 21, 2022
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug that prevents the battle system from shifting back to the default battle system after an enemy counter attack. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.03: April 14, 2022
+</p>
+<ul><li>Compatibility Update!
+<ul><li>Now works more compatible with counters. Update made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Verison 1.02: March 17, 2022
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Death by slip damage will now perform the proper death animation. Fix made by Olivia.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.01: October 28, 2021
+</p>
+<ul><li>Feature Update!
+<ul><li>Plugin now more closely fits the original source material.</li></ul></li>
+<li>Optimization Update!
+<ul><li>Plugin should run more optimized.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.00 Official Release Date: November 1, 2021
+</p>
+<ul><li>Finished Plugin!</li></ul>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<ul><li><a href="/wiki/Battle_System_Differences_VisuStella_MZ" title="Battle System Differences VisuStella MZ">Battle System Differences VisuStella MZ</a></li>
+<li><a href="/wiki/Inspiration_Behind_Battle_Technician_Volume_2" class="mw-redirect" title="Inspiration Behind Battle Technician Volume 2">Inspiration Behind Battle Technician Volume 2</a></li></ul>
+<h2><span class="mw-headline" id="End_of_File">End of File</span></h2>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20240815082808
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.113 seconds
+Real time usage: 0.154 seconds
+Preprocessor visited node count: 249/1000000
+Preprocessor generated node count: 847/1000000
+Post‐expand include size: 7302/2097152 bytes
+Template argument size: 99/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7747/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   24.882      1 -total
+ 39.14%    9.740      1 Template:MzPlugin
+ 12.34%    3.070      1 Template:VisuMZ_Battle_System_-_PTB_Notetags
+ 12.17%    3.029      1 Template:TOCright
+  9.99%    2.486      1 Template:MZ_Tier_2
+  9.81%    2.441      1 Template:VisuStella_Battle_Technician_Vol_2
+  9.42%    2.345      1 Template:RequiredPluginsMZ
+  8.15%    2.027      1 Template:VisuMZ_Battle_System_-_PTB_Plugin_Commands
+  6.29%    1.566      1 Template:TopBanner
+  6.10%    1.517      1 Template:Plugin_Commands_MZ
+-->
+
+<!-- Saved in parser cache with key yanfly_mw4-mw_:pcache:idhash:2883-0!canonical and timestamp 20240815082807 and revision id 16812
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.yanfly.moe/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;oldid=16812">http://www.yanfly.moe/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;oldid=16812</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:RPG_Maker_MZ_Plugins" title="Category:RPG Maker MZ Plugins">RPG Maker MZ Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Extension_Plugins" title="Category:RPG Maker MZ Extension Plugins">RPG Maker MZ Extension Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Tier_2_Plugins" title="Category:RPG Maker MZ Tier 2 Plugins">RPG Maker MZ Tier 2 Plugins</a></li><li><a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags (MZ)</a></li><li><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands (MZ)</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Battle_Plugins" title="Category:RPG Maker MZ Battle Plugins">RPG Maker MZ Battle Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Gameplay_Plugins" title="Category:RPG Maker MZ Gameplay Plugins">RPG Maker MZ Gameplay Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Utility_Plugins" title="Category:RPG Maker MZ Utility Plugins">RPG Maker MZ Utility Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Mechanical_Plugins" title="Category:RPG Maker MZ Mechanical Plugins">RPG Maker MZ Mechanical Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Visual_Plugins" title="Category:RPG Maker MZ Visual Plugins">RPG Maker MZ Visual Plugins</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Battle+System+-+PTB+VisuStella+MZ" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Battle_System_-_PTB_VisuStella_MZ" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/wiki/index.php?title=Talk:Battle_System_-_PTB_VisuStella_MZ&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Battle_System_-_PTB_VisuStella_MZ">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/wiki/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Yanfly.moe Wiki" title="Search Yanfly.moe Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Assets_.26_Resources" aria-labelledby="p-Assets_.26_Resources-label">
+			<h3 id="p-Assets_.26_Resources-label">Assets &amp; Resources</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.A8All-Assets"><a href="/wiki/Category:RPG_Maker_Graphic_Assets">🎨All Assets</a></li><li id="n-.F0.9F.91.B9.C3.86kashics"><a href="/wiki/%C3%86kashics_Librarium">👹Ækashics</a></li><li id="n-.F0.9F.90.BACaz-Wolf"><a href="/wiki/Caz_Wolf">🐺Caz Wolf</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.8C.BBSample-Game"><a href="/wiki/VisuStella_Sample_Game_Project">🌻Sample Game</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MZ.29" aria-labelledby="p-Plugin_Libraries_.28MZ.29-label">
+			<h3 id="p-Plugin_Libraries_.28MZ.29-label">Plugin Libraries (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MZ_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.8E.ADVisuStella-MZ"><a href="/wiki/VisuStella_MZ">🎭VisuStella MZ</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-MZ_Plugin_Help" aria-labelledby="p-MZ_Plugin_Help-label">
+			<h3 id="p-MZ_Plugin_Help-label">MZ Plugin Help</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.99.E2.80.8D.E2.99.80.EF.B8.8FInstalling-Plugins"><a href="/wiki/How_to_Install_Plugins_RPG_Maker_MZ">🧙‍♀️Installing Plugins</a></li><li id="n-.F0.9F.94.84Updating-Plugins"><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ">🔄Updating Plugins</a></li><li id="n-.F0.9F.95.B5.EF.B8.8FTroubleshooting"><a href="/wiki/Troubleshooting_Plugins_RPG_Maker_MZ">🕵️Troubleshooting</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MZ.29" aria-labelledby="p-Reference_List_.28MZ.29-label">
+			<h3 id="p-Reference_List_.28MZ.29-label">Reference List (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.93.9AChangelog"><a href="/wiki/VisuStella_MZ_Changelog">📚Changelog</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MZ)">📔Notetags</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MZ)">🐧Plugin Commands</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MZ)">🧮Text Codes</a></li><li id="n-.F0.9F.93.9AGlossary"><a href="/wiki/Glossary">📚Glossary</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MV.29" aria-labelledby="p-Plugin_Libraries_.28MV.29-label">
+			<h3 id="p-Plugin_Libraries_.28MV.29-label">Plugin Libraries (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MV_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.90.8FAries-of-Sheratan"><a href="/wiki/Aries_of_Sheratan">🐏Aries of Sheratan</a></li><li id="n-.F0.9F.8E.8EArisu.27s-Dollhouse"><a href="/wiki/Arisu%27s_Dollhouse">🎎Arisu's Dollhouse</a></li><li id="n-.F0.9F.91.93Atelier-Irina"><a href="/wiki/Atelier_Irina">👓Atelier Irina</a></li><li id="n-.F0.9F.91.BCFallen-Angel-Olivia"><a href="/wiki/Fallen_Angel_Olivia">👼Fallen Angel Olivia</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.90.87Yanfly-Engine"><a href="/wiki/Yanfly_Engine_Plugins">🐇Yanfly Engine</a></li><li id="n-.F0.9F.90.B0Tips-.26-Tricks"><a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks">🐰Tips &amp; Tricks</a></li><li id="n-.F0.9F.93.BASample-Projects"><a href="/wiki/Category:Sample_Projects_(MV)">📺Sample Projects</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MV.29" aria-labelledby="p-Reference_List_.28MV.29-label">
+			<h3 id="p-Reference_List_.28MV.29-label">Reference List (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.ACAction-Sequences"><a href="/wiki/Category:Action_Sequences_(MV)">🎬Action Sequences</a></li><li id="n-.F0.9F.92.ACComment-Tags"><a href="/wiki/Category:Comment_Tags_(MV)">💬Comment Tags</a></li><li id="n-.F0.9F.8D.8EMain-Menu-Intgr."><a href="/wiki/Category:Main_Menu_Manager_Integration_(MV)">🍎Main Menu Intgr.</a></li><li id="n-.F0.9F.8C.99Lunatic-Mode"><a href="/wiki/Category:Lunatic_Mode_(MV)">🌙Lunatic Mode</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MV)">📔Notetags</a></li><li id="n-.F0.9F.96.B1.EF.B8.8FOptions-Integration"><a href="/wiki/Category:Options_Core_Integration_(MV)">🖱️Options Integration</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MV)">🐧Plugin Commands</a></li><li id="n-.F0.9F.8E.AEScript-Calls"><a href="/wiki/Category:Script_Calls_(MV)">🎮Script Calls</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MV)">🧮Text Codes</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Affiliate" aria-labelledby="p-Affiliate-label">
+			<h3 id="p-Affiliate-label">Affiliate</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.91.E2.80.8D.F0.9F.A4.9D.E2.80.8D.F0.9F.A7.91Affiliate-Websites"><a href="/wiki/Affiliate_Websites">🧑‍🤝‍🧑Affiliate Websites</a></li><li id="n-.F0.9F.8E.B2Afilliates.27-Games"><a href="/wiki/Afilliates%27_Games">🎲Afilliates' Games</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Battle_System_-_PTB_VisuStella_MZ" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Battle_System_-_PTB_VisuStella_MZ" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;oldid=16812" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/wiki/index.php?title=Battle_System_-_PTB_VisuStella_MZ&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 16 July 2024, at 12:14.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/wiki/My_wiki:Privacy_policy" title="My wiki:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/My_wiki:About" title="My wiki:About">About Yanfly.moe Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/My_wiki:General_disclaimer" title="My wiki:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/wiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.113","walltime":"0.154","ppvisitednodes":{"value":249,"limit":1000000},"ppgeneratednodes":{"value":847,"limit":1000000},"postexpandincludesize":{"value":7302,"limit":2097152},"templateargumentsize":{"value":99,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":7747,"limit":5000000},"timingprofile":["100.00%   24.882      1 -total"," 39.14%    9.740      1 Template:MzPlugin"," 12.34%    3.070      1 Template:VisuMZ_Battle_System_-_PTB_Notetags"," 12.17%    3.029      1 Template:TOCright","  9.99%    2.486      1 Template:MZ_Tier_2","  9.81%    2.441      1 Template:VisuStella_Battle_Technician_Vol_2","  9.42%    2.345      1 Template:RequiredPluginsMZ","  8.15%    2.027      1 Template:VisuMZ_Battle_System_-_PTB_Plugin_Commands","  6.29%    1.566      1 Template:TopBanner","  6.10%    1.517      1 Template:Plugin_Commands_MZ"]},"cachereport":{"timestamp":"20240815082808","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":122});});</script>
+	</body>
+</html>

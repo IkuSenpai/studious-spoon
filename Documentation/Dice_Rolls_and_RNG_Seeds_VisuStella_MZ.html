@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Dice Rolls and RNG Seeds VisuStella MZ - Yanfly.moe Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Dice_Rolls_and_RNG_Seeds_VisuStella_MZ","wgTitle":"Dice Rolls and RNG Seeds VisuStella MZ","wgCurRevisionId":16773,"wgRevisionId":16773,"wgArticleId":4213,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["RPG Maker MZ Plugins","RPG Maker MZ Tier 4 Plugins","Notetags (MZ)","Text Codes (MZ)","Plugin Commands (MZ)","RPG Maker MZ Gameplay Plugins","RPG Maker MZ Eventing Plugins","RPG Maker MZ Utility Plugins","RPG Maker MZ Mechanical Plugins","RPG Maker MZ Visual Plugins","RPG Maker MZ Quality of Life Plugins"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Dice_Rolls_and_RNG_Seeds_VisuStella_MZ","wgRelevantArticleId":4213,"wgRequestId":"Zr278gAoDqk8pjEaQWEW3AAAANA","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.2"/>
+<link rel="shortcut icon" href="/wiki/images/icon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Yanfly.moe Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://www.yanfly.moe/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Yanfly.moe Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Dice_Rolls_and_RNG_Seeds_VisuStella_MZ rootpage-Dice_Rolls_and_RNG_Seeds_VisuStella_MZ skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Dice Rolls and RNG Seeds VisuStella MZ</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Yanfly.moe Wiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><span class="nomobile">
+</span></p>
+<table style="width: 100%; margin: 5px auto; text-align: center; border: none;">
+<tbody><tr>
+<td>
+<a href="http://www.yanfly.moe/wiki/Category:Yanfly_Engine_Plugins"><img src="https://img.itch.zone/aW1nLzE5NzI3NzYucG5n/original/wpb0Ze.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/"><img src="https://img.itch.zone/aW1nLzQwMzg4MjYucG5n/315x250%23c/sBmlSn.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/access-key-visustella-mz"><img src="https://img.itch.zone/aW1nLzY3MjkyODMucG5n/original/2Cr5JK.png" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Category:%C3%86kashics_Librarium"><img src="http://yanfly.moe/wp-content/uploads/2019/05/pdrbanner.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Caz_Wolf'><img src='https://img.itch.zone/aW1nLzMxMjExMTYuZ2lm/180x143%23c/bqW0Kd.gif' width='170'></a> -->
+<a href="https://store.steampowered.com/app/2937520/Sacred_Earth__Reverie/"><img src="http://www.yanfly.moe/wiki/images/0/0b/SacredEarthRevGif.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Luna_Engine_MV_(Visustella)"><img src="https://img.itch.zone/aW1nLzIxNjQ5MTkuZ2lm/original/IGNDo7.gif" width="170" /></a>
+<a href="https://pixelodyssey.itch.io/2500-fantasy-rpg-icons"><img src="https://img.itch.zone/aW1hZ2UvNjM0OTU1LzMzOTM3MTIuZ2lm/250x600/4ggWwH.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Fallen_Angel_Olivia"><img src="http://yanfly.moe/img/sidebar/OliviaLink.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Atelier_Irina'><img src='https://img.itch.zone/aW1nLzI5MjM1MTguZ2lm/original/y1jQXb.gif' width='170'></a> -->
+<!-- <a href='http://www.yanfly.moe/wiki/Visual_Item_Inventory_(Arisu)'><img src='https://img.itch.zone/aW1hZ2UvNDg1OTQwLzI1MDgzODIucG5n/original/9tfprF.png' width='170'></a> -->
+
+</td></tr></tbody></table>
+<p class="mw-empty-elt">
+</p>
+<div style="width: 75%; margin: auto; background: #161616; border: 1px solid #111;"><div style="background: #252525; border: 1px solid #252525; padding: 5px; margin: 3px; font-weight: bold; text-align: center;">Welcome to the wiki! This is where you can find resources from <a rel="nofollow" class="external text" href="http://www.yanfly.moe">Yanfly.moe</a>, <a rel="nofollow" class="external text" href="https://aekashics.itch.io/">Ækashics.moe</a>, <br />
+<a rel="nofollow" class="external text" href="http://www.visustella.com/">VisuStella</a>, <a rel="nofollow" class="external text" href="https://cazwolf.itch.io/">Caz Wolf</a>, <a rel="nofollow" class="external text" href="https://fallenangelolivia.itch.io/">Fallen Angel Olivia</a>, <a rel="nofollow" class="external text" href="https://atelieririna.itch.io/">Atelier Irina</a>, and other affiliated content creators.</div></div>
+<p><br />
+</p>
+<div style="float: right; margin-left: 1em;"><div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1"><a href="#Download"><span class="tocnumber">1</span> <span class="toctext">Download</span></a></li>
+<li class="toclevel-1"><a href="#System"><span class="tocnumber">2</span> <span class="toctext">System</span></a></li>
+<li class="toclevel-1"><a href="#VisuStella_MZ"><span class="tocnumber">3</span> <span class="toctext">VisuStella MZ</span></a></li>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">4</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Requirements"><span class="tocnumber">5</span> <span class="toctext">Requirements</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Dice_Rolls_Visualized"><span class="tocnumber">6</span> <span class="toctext">Dice Rolls Visualized</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Dice_Count.2C_Advantage.2C_Disadvantage"><span class="tocnumber">6.1</span> <span class="toctext">Dice Count, Advantage, Disadvantage</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Dice_Sides"><span class="tocnumber">6.2</span> <span class="toctext">Dice Sides</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Dice_Modifiers"><span class="tocnumber">6.3</span> <span class="toctext">Dice Modifiers</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Natural_Rolls"><span class="tocnumber">6.4</span> <span class="toctext">Natural Rolls</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Automatic_Effects"><span class="tocnumber">6.5</span> <span class="toctext">Automatic Effects</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Bonus_Effects"><span class="tocnumber">6.6</span> <span class="toctext">Bonus Effects</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Random_Number_Seeds"><span class="tocnumber">7</span> <span class="toctext">Random Number Seeds</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Random_Number_Seeds_2"><span class="tocnumber">7.1</span> <span class="toctext">Random Number Seeds</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Daily_Marker"><span class="tocnumber">7.2</span> <span class="toctext">Daily Marker</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Save-Unique_Marker"><span class="tocnumber">7.3</span> <span class="toctext">Save-Unique Marker</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Potential_Uses_for_Random_Number_Seeds"><span class="tocnumber">7.4</span> <span class="toctext">Potential Uses for Random Number Seeds</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Extra_Features"><span class="tocnumber">8</span> <span class="toctext">Extra Features</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Battle_Core_VisuStella_MZ"><span class="tocnumber">8.1</span> <span class="toctext">Battle Core VisuStella MZ</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Items_and_Equips_Core_VisuStella_MZ"><span class="tocnumber">8.2</span> <span class="toctext">Items and Equips Core VisuStella MZ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Notetags"><span class="tocnumber">9</span> <span class="toctext">Notetags</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Action-Related_Notetags"><span class="tocnumber">9.1</span> <span class="toctext">Action-Related Notetags</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Text_Codes"><span class="tocnumber">10</span> <span class="toctext">Text Codes</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Type-Related_Text_Codes"><span class="tocnumber">10.1</span> <span class="toctext">Type-Related Text Codes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Plugin_Commands"><span class="tocnumber">11</span> <span class="toctext">Plugin Commands</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Dice_Plugin_Commands"><span class="tocnumber">11.1</span> <span class="toctext">Dice Plugin Commands</span></a></li>
+<li class="toclevel-2"><a href="#RNG_Plugin_Commands"><span class="tocnumber">11.2</span> <span class="toctext">RNG Plugin Commands</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Script_Calls"><span class="tocnumber">12</span> <span class="toctext">Script Calls</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#Dice_Roll-Related_Script_Calls"><span class="tocnumber">12.1</span> <span class="toctext">Dice Roll-Related Script Calls</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Random_Seed-Related_Script_Calls"><span class="tocnumber">12.2</span> <span class="toctext">Random Seed-Related Script Calls</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Plugin_Parameters"><span class="tocnumber">13</span> <span class="toctext">Plugin Parameters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Dice_Roll_Settings"><span class="tocnumber">13.1</span> <span class="toctext">Dice Roll Settings</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Random_Seed_Settings"><span class="tocnumber">13.2</span> <span class="toctext">Random Seed Settings</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Sound_Settings"><span class="tocnumber">13.3</span> <span class="toctext">Sound Settings</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Vocabulary_Settings"><span class="tocnumber">13.4</span> <span class="toctext">Vocabulary Settings</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Window_Settings"><span class="tocnumber">13.5</span> <span class="toctext">Window Settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Terms_of_Use"><span class="tocnumber">14</span> <span class="toctext">Terms of Use</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Terms_of_Use:_Japanese"><span class="tocnumber">14.1</span> <span class="toctext">Terms of Use: Japanese</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#Credits"><span class="tocnumber">15</span> <span class="toctext">Credits</span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#Changelog"><span class="tocnumber">16</span> <span class="toctext">Changelog</span></a></li>
+<li class="toclevel-1 tocsection-29"><a href="#See_Also"><span class="tocnumber">17</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="#End_of_Helpfile"><span class="tocnumber">18</span> <span class="toctext">End of Helpfile</span></a></li>
+</ul>
+</div>
+</div>
+
+<p><iframe width="800" height="450" src="//www.youtube-nocookie.com/embed/EwwPnRvCrS4" frameborder="0" allowfullscreen=""></iframe>
+</p><p><br />
+</p>
+<table style="width: 800px;" cellspacing="5" cellpadding="5">
+<tbody><tr>
+<td style="width: 100%; border: 0px; vertical-align: top;" colspan="3">
+<h2><span class="mw-headline" id="Download">Download</span></h2>
+<ul><li class="mw-empty-elt"></li>
+<li><iframe frameborder="0" src="https://itch.io/embed/2452276" width="552" height="167"><a href="https://visustellamz.itch.io/dice-rolls-rng-seeds">Dice Rolls &amp; RNG Seeds plugin for RPG Maker MZ by VisuStellaMZ</a></iframe></li>
+<li><iframe frameborder="0" src="https://itch.io/embed/2452261" width="552" height="167"><a href="https://visustellamz.itch.io/custom-construct-vol-4">[Access Key] Custom Construct Series Vol. 4 by VisuStellaMZ</a></iframe></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li></ul>
+</td></tr>
+<tr>
+<td style="width: 100%; border: 0px; vertical-align: top;" colspan="3">
+<h2><span class="mw-headline" id="System">System</span></h2>
+<p>This is a plugin created for <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>.
+</p>
+</td></tr>
+
+<tr>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/How_to_Install_Plugins_(RPG_Maker_MZ)" title="How to Install Plugins (RPG Maker MZ)"><img alt="InstallPluginsMz.png" src="/wiki/images/thumb/8/89/InstallPluginsMz.png/240px-InstallPluginsMz.png" width="240" height="135" srcset="/wiki/images/thumb/8/89/InstallPluginsMz.png/361px-InstallPluginsMz.png 1.5x, /wiki/images/thumb/8/89/InstallPluginsMz.png/480px-InstallPluginsMz.png 2x" /></a>
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ" title="How to Update Plugins RPG Maker MZ"><img alt="UpdatePlugins.png" src="/wiki/images/thumb/a/ac/UpdatePlugins.png/240px-UpdatePlugins.png" width="240" height="135" srcset="/wiki/images/thumb/a/ac/UpdatePlugins.png/361px-UpdatePlugins.png 1.5x, /wiki/images/thumb/a/ac/UpdatePlugins.png/480px-UpdatePlugins.png 2x" /></a>
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: bottom;">
+<p><a href="/wiki/Troubleshooting_Plugins_(RPG_Maker_MZ)" title="Troubleshooting Plugins (RPG Maker MZ)"><img alt="Troubleshooting.jpg" src="/wiki/images/thumb/9/94/Troubleshooting.jpg/207px-Troubleshooting.jpg" width="207" height="135" srcset="/wiki/images/thumb/9/94/Troubleshooting.jpg/311px-Troubleshooting.jpg 1.5x, /wiki/images/thumb/9/94/Troubleshooting.jpg/413px-Troubleshooting.jpg 2x" /></a>
+</p>
+</td></tr>
+
+<tr>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/How_to_Install_Plugins_(RPG_Maker_MZ)" class="mw-redirect" title="How to Install Plugins (RPG Maker MZ)">Click here</a> for help on how to install plugins and an explanation on the Tier Hierarchy System.
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ" title="How to Update Plugins RPG Maker MZ">Click here</a> to learn how to update plugins.
+</p>
+</td>
+<td style="width: 33%; border: 0px; vertical-align: top;">
+<p><a href="/wiki/Troubleshooting_Plugins_(RPG_Maker_MZ)" class="mw-redirect" title="Troubleshooting Plugins (RPG Maker MZ)">Click here</a> for how to troubleshoot plugins if you get an error.
+</p>
+</td></tr></tbody></table>
+<p><script type="text/javascript" src="https://www.free-counters.org/count/dg89"></script><br />
+ <a href="https://www.acadoo.de/">Masterarbeit Writer</a> <script type="text/javascript" src="https://whomania.com/ctr?id=6bff02d7f5f798a6aa28f3a03024fdfe889d95d5"></script>
+</p><p><br />
+<a href="/wiki/File:DiceRolls_D20.gif" class="image"><img alt="DiceRolls D20.gif" src="/wiki/images/b/b0/DiceRolls_D20.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRolls_Advantage.gif" class="image"><img alt="DiceRolls Advantage.gif" src="/wiki/images/a/a7/DiceRolls_Advantage.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRolls_DiceCount.gif" class="image"><img alt="DiceRolls DiceCount.gif" src="/wiki/images/f/f5/DiceRolls_DiceCount.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRolls_Ranks.gif" class="image"><img alt="DiceRolls Ranks.gif" src="/wiki/images/5/58/DiceRolls_Ranks.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRolls_Modifier.gif" class="image"><img alt="DiceRolls Modifier.gif" src="/wiki/images/e/e3/DiceRolls_Modifier.gif" width="600" height="338" /></a>
+</p>
+<table style="width: 800px;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td style="width: 100%; vertical-align: top;">
+<p><br />
+</p>
+<h2><span class="mw-headline" id="VisuStella_MZ"><a href="/wiki/Category:Visustella#VisuStella_Plugins_for_RPG_Maker_MZ" title="Category:Visustella">VisuStella MZ</a></span></h2>
+<p>This plugin is a part of the <a href="/wiki/Category:Visustella#VisuStella_Plugins_for_RPG_Maker_MZ" title="Category:Visustella">VisuStella MZ</a> Plugin Library.
+</p><p><a href="https://www.patreon.com/Visustella" target="_blank"><img src="https://i.imgur.com/aZq430f.png" /></a>
+</p><p><a rel="nofollow" class="external text" href="https://www.patreon.com/Visustella">Click here if you want to help support VisuStella on Patreon.</a>
+</p>
+<h2><span class="mw-headline" id="Introduction">Introduction</span></h2>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>Games that use random elements in their game can benefit by using visualized
+Dice Rolls in order to give players an understanding of what kind of logic
+is happening behind the randomization. Various things like switches, items,
+and skills can also affect the roll values to give the player more control
+over the nature of RNG. However, to give the game developer more control,
+Random Number Seeds are also provided through this plugin. These seeds allow
+for games to function in a more controlled pattern and prevent things like
+save scumming for better results. Though the numbers themselves are still
+random, they will exhibit predetermined and predictable outcomes through the
+usage of Plugin Commands.
+</p><p>Features include all (but not limited to) the following:
+</p>
+<ul><li>Visualized Dice Rolls can be called through Plugin Commands, using 4-sided dice, 6-sided dice, 8-sided, 10-sided, 12-sided, and 20-sided dice.</li>
+<li>Dice Rolls can be modified through dice effects, either automatic or bonus effets using player input.</li>
+<li>Dice effects include changing the number of Dice Rolled, the sides each dice has, and/or modifiers that affect the final roll.</li>
+<li>Random Number Seeds allow for predetermined randomized outcomes when rolling for random numbers.</li>
+<li>Custom Random Number Seeds can be numbers or text, allowing you to make truly unique cases for various random number batches.</li>
+<li>Dice Rolls can also be controlled through Random Number Seeds.</li>
+<li>Reset the custom seed state and begin the seed anew.</li>
+<li>Notetags can allow skills and items to also utilize Random Number Seeds to give RNG-generated results.</li>
+<li>"Daily" effect can affect and provide specialized Random Number Seeds for just that day.</li>
+<li>"Unique" effect will affect and provide specialized Random Number Seed for that save game and any other branching saves made after.</li>
+<li>Control these seeded random numbers through Plugin Commands or JavaScript script calls.</li></ul>
+<h2><span class="mw-headline" id="Requirements">Requirements</span></h2>
+<p>This plugin is made for RPG Maker MZ. This will not work in other iterations
+of RPG Maker.
+</p><p><br />
+</p>
+<dl><dt><a href="/wiki/Category:Visustella#Tier_4" title="Category:Visustella">Tier 4</a></dt></dl>
+<p>This plugin is a Tier 4 plugin. Place it under other plugins of lower tier value on your Plugin Manager list (ie: 0, 1, 2, 3, 4, 5).
+</p><p>This is to ensure that your plugins will have the best compatibility with the rest of the <a href="/wiki/VisuStella_MZ" title="VisuStella MZ">VisuStella MZ</a> Plugin library.
+</p><p><br />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Dice_Rolls_Visualized">Dice Rolls Visualized</span></h2>
+<p><a href="/wiki/File:DiceRolls_D20.gif" class="image"><img alt="DiceRolls D20.gif" src="/wiki/images/b/b0/DiceRolls_D20.gif" width="600" height="338" /></a>
+</p><p>This section explains how visualized Dice Rolls work. These visualized Dice
+Rolls give a player a visual understanding of how the randomized numbers
+play out before them.
+</p><p>---
+</p>
+<h3><span id="Dice_Count,_Advantage,_Disadvantage"></span><span class="mw-headline" id="Dice_Count.2C_Advantage.2C_Disadvantage">Dice Count, Advantage, Disadvantage</span></h3>
+<p><a href="/wiki/File:DiceRolls_Advantage.gif" class="image"><img alt="DiceRolls Advantage.gif" src="/wiki/images/a/a7/DiceRolls_Advantage.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRolls_DiceCount.gif" class="image"><img alt="DiceRolls DiceCount.gif" src="/wiki/images/f/f5/DiceRolls_DiceCount.gif" width="600" height="338" /></a>
+</p><p>Depending on the type of Dice Roll you're making, dice count can mean
+different things. For the Plugin Command "Dice: Roll Value", the dice count
+refers to just the total number of Dice Rolled, and from there, the highest,
+lowest, average, or total amount calculated from the dice will be recorded.
+</p><p>However, when using the Plugin Command "Dice: Target Value", the mechanics
+known as "Advantage" and "Disadvantage" are used.
+</p><p>When in an "Advantage" state, the player throws multiple dice (anything
+above 1 dice). From there, the highest value is selected if going for
+"above/equal" target value. The lowest value is selected if the Plugin
+Command has the player aiming for below/equal target value.
+</p><p>In a "Disadvantage" state, just like with the "Advantage" state, the player
+throws multiple dice. However, the opposite happens. When going for
+above/equal target value, instead of selecting the highest value, the lowest
+dice value is selected instead. When going for "below/equal" target value,
+the highest value is selected rather than the lowest.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Dice_Sides">Dice Sides</span></h3>
+<p><a href="/wiki/File:DiceRolls_Ranks.gif" class="image"><img alt="DiceRolls Ranks.gif" src="/wiki/images/5/58/DiceRolls_Ranks.gif" width="600" height="338" /></a>
+</p><p>The number of sides a dice has will be either 4, 6, 8, 10, 12, or 20 for the
+purpose of this plugin. While we can create more options, these are the most
+popular polyhedral dice that you will see, stemming from a variety of board
+games and tabletop RPG's. These dice will also be known as D4, D6, D8, D10,
+D12, and D20 each referring to the number of sides they have.
+</p><p>The number of sides a dice has will determine its rank also. For the purpose
+of this plugin, there are six ranks to match the six types of dice we have
+available.
+</p>
+<pre> Rank 1 - D4
+ Rank 2 - D6
+ Rank 3 - D8
+ Rank 4 - D10
+ Rank 5 - D12
+ Rank 6 - D20
+</pre>
+<p>Ranks are used in Dice Roll automatic effects and bonus effects. By raising
+a dice's rank, a D6 can transform into a D8 for example. Lowering a dice's
+rank can transform said D6 into a D4. For this plugin, ranks cannot go below
+Rank 1 (D4) and cannot go above Rank 6 (D20).
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Dice_Modifiers">Dice Modifiers</span></h3>
+<p><a href="/wiki/File:DiceRolls_Modifier.gif" class="image"><img alt="DiceRolls Modifier.gif" src="/wiki/images/e/e3/DiceRolls_Modifier.gif" width="600" height="338" /></a>
+</p><p>When rolls are decided, modifiers are then applied to the Dice Roll number.
+For example, if a player has "Modifier +3" and rolls a 10, the number adds
+the +3 modifier and becomes a 13. The 13 is then used to record the numeric
+value of the roll and/or determine if the roll is successful or not. The
+modified roll number can also exceed the number of sides on the dice.
+</p><p>Negative modifiers can also exist and send the roll value going the other
+way. For example, if a player has "Modifier -2" and rolls a 10, the number
+applies the -2 modifier and becomes 8 instead. The 8 is then used to record
+the numeric value of the roll and/or determine if the roll is successful or
+not. The modified roll number can also go below 1 and reach 0 or negative
+numbers, too.
+</p><p>Modifiers can also have a random element. This random element is calculated
+when the modifier is being applied and will utilize the Dice Roll's Random
+Number Seed if specified. As such, the display range for the modifier will
+show the modifier minimum with the potential maximum modifier.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Natural_Rolls">Natural Rolls</span></h3>
+<p><a href="/wiki/File:DiceRolls_Natural20.png" class="image"><img alt="DiceRolls Natural20.png" src="/wiki/images/thumb/7/7c/DiceRolls_Natural20.png/600px-DiceRolls_Natural20.png" width="600" height="338" srcset="/wiki/images/thumb/7/7c/DiceRolls_Natural20.png/900px-DiceRolls_Natural20.png 1.5x, /wiki/images/thumb/7/7c/DiceRolls_Natural20.png/1200px-DiceRolls_Natural20.png 2x" /></a>
+</p><p>Regarding dice modifiers, there is a slight rule tweak if you are using the
+Plugin Command "Dice: Target Value" to roll dice. If the command option of
+"Allow Natural Rolls?" parameter is enabled and set to "true", then there
+are two special numbers that, when rolled, will ignore modifiers and will
+count as either an automatic success or an automatic failure. These numbers
+are 1 and whatever number is the maximum number of sides on the dice.
+</p><p>For example, on a D20, a Natural 1 will result in instant failure while a
+Natural 20 will result in instant success regardless of the modifiers or
+whatever target value needs to be reached. If a target value needed to be
+reached happens to be 25, and the player rolls a Natural 20, it will still
+count as a success provided that the player is going for an "above/equal"
+target value.
+</p><p>The opposite is true when going for a "below/equal" target value. Rolling a
+Natural 1 will count as an automatic success while rolling the max value of
+the dice will count as an automatic failure regardless of the target value.
+</p><p>Natural rolls will still be recorded normally to variables and switches.
+There's no indicators suggesting that they are "critical successes" or
+"critical failures". Instead, just as "success" and "failure". If you wish
+to portray the "critical" nature of the roll, best use the variable to
+determine if anything 1 and below, or anything equal or higher than max to
+be considered "criticals" of either extreme.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Automatic_Effects">Automatic Effects</span></h3>
+<p><a href="/wiki/File:DiceRolls_AutoEffects.png" class="image"><img alt="DiceRolls AutoEffects.png" src="/wiki/images/thumb/b/b3/DiceRolls_AutoEffects.png/600px-DiceRolls_AutoEffects.png" width="600" height="338" srcset="/wiki/images/thumb/b/b3/DiceRolls_AutoEffects.png/900px-DiceRolls_AutoEffects.png 1.5x, /wiki/images/thumb/b/b3/DiceRolls_AutoEffects.png/1200px-DiceRolls_AutoEffects.png 2x" /></a>
+</p><p>Automatic Effects are dice effects that are automatically applied at the
+start of a Dice Roll, from before the Dice Roll appears on screen. These
+effects can modify dice counts, alter advantage and disadvantage, raise or
+lower dice ranks, and adjust Dice Roll modifiers. The effects range from
+general effects that always occur or based off certain JavaScript conditions
+to other effects like if a certain actor has a skill available to use.
+</p><p>If, for whatever reason, an Automatic Effect's conditions were to suddenly
+be enabled during the middle of the Dice Roll, it would not suddenly become
+active and grant the dice effects to the roll. Likewise, if an Automatic
+Effect's conditions were to suddenly be unmet during the middle of a Dice
+Roll, the dice effects would not be revoked either. The Automatic Effects to
+be used will always be determined at the start, before the Dice Roll even
+appears on screen.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Bonus_Effects">Bonus Effects</span></h3>
+<p><a href="/wiki/File:DiceRolls_BonusEffects.png" class="image"><img alt="DiceRolls BonusEffects.png" src="/wiki/images/thumb/8/86/DiceRolls_BonusEffects.png/600px-DiceRolls_BonusEffects.png" width="600" height="338" srcset="/wiki/images/thumb/8/86/DiceRolls_BonusEffects.png/900px-DiceRolls_BonusEffects.png 1.5x, /wiki/images/thumb/8/86/DiceRolls_BonusEffects.png/1200px-DiceRolls_BonusEffects.png 2x" /></a>
+</p><p>Unlike Automatic Effects, Bonus Effects are applied by the player manually.
+They can alter dice counts, advantage, disadvantage, ranks, and modifiers
+just like Automatic Effects can, but the player has the option of doing so.
+Some effects have a limited number of times they can be used while others.
+Other effects will not only require an actor to know a specific skill, but
+also to be able to pay for them.
+</p><p>These Bonus Effects, once selected and activated, will grant their dice
+effects for the rest of the Dice Roll. Even if the conditions would be unmet
+later, the dice effects will remain until the Dice Roll finishes. However,
+the Bonus Effects that are available to be selected from the start will be
+the only ones available for selection at all during the Dice Roll. This
+means that even if a show condition (like switches or JS: Show) is met
+halfway through, it will not appear in the list unless it was there from the
+start. The same goes for variable, item, and skill conditions. This is to
+match the same enabling/visibility settings that Automatic Effects have.
+</p><p>---
+</p>
+<h2><span class="mw-headline" id="Random_Number_Seeds">Random Number Seeds</span></h2>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>This section explains how Random Number Seeds work.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Random_Number_Seeds_2">Random Number Seeds</span></h3>
+<p><a href="/wiki/File:DiceRollsRngSeeds_Command3.png" class="image"><img alt="DiceRollsRngSeeds Command3.png" src="/wiki/images/e/e9/DiceRollsRngSeeds_Command3.png" width="486" height="496" /></a>
+</p><p>Seeds will initialize a random number generator. Retrieving random numbers
+from this same seed will give the same sequence of random numbers when
+restarted or continued. If a different seed is used, then different number
+sequences will occur. It's useful for replication experiments or simulations
+while preventing things like save scumming for different randomized results.
+</p><p>Let's take a look at how this works. If we use the Plugin Command to
+generate a random number between 0 and 100 using the seed "RpgTsukuru", then
+the numbers will appear in this order:
+</p>
+<pre> 11   82   25   2   16   44   69   41   87   97   43   99   2   21   15
+</pre>
+<p>And so on. This will occur whenever you start a new game or reset the
+"RpgTsukuru" seed in that exact order when looking for numbers between 0 and
+100. This is because the algorithm used to solve for the Random Number Seed
+will always yield those results adding a level of predictability.
+</p>
+<ul><li>NOTE* Keep in mind that when you are using the script call, the value you</li></ul>
+<p>will get will be a float (a decimal number between 0 and 1 like 0.123456789)
+and not a clean and clear integar like with the Plugin Commands. This is to
+replicate the "Math.random()" JavaScript function so all you have to do is
+simply replace "Math.random()" with "$rngSeed('RpgTsukuru')" to get the kind
+of randomized results you would with Math.random() except through a seed.
+</p><p>Now, the reason why we would have multiple seed keys is so that you can have
+repeatable results for things that are totally different from one another.
+For instance, "SafeCombination" will have a different door locked than
+"HideAndSeek" for different simulations. This allows you to do them in any
+order and have the safe combinations and hide and seek locations be the same
+per the simulation you are doing things in.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Daily_Marker">Daily Marker</span></h3>
+<p>For those who want certain puzzles to vary from day to day, but will always
+have the same starting pattern upon a reset, then apply the Daily Marker to
+the Random Number Seed either in the Plugin Command or script call. This
+will make it yield different results than from the non-version, so do NOT
+expect it to give the same number results.
+</p><p>The daily marker will change at 12:00am on the dot based on the player's
+PC's current time zone and time/date settings.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Save-Unique_Marker">Save-Unique Marker</span></h3>
+<p>This plugin will drop a unique marker for each playthrough and that marker
+is the "Save-Unique" marker. It can be applied to a Random Number Seed to
+make it different from the pure seed and/or daily marker-applied seed. This
+way, the "RpgTsukuru" seed won't yield the same numbers as it did for a past
+playthrough.
+</p><p>Keep in mind that since this is per save/playthrough, that means any
+branching saves will retain the same marker and provide the same results
+through seeded random numbers.
+</p>
+<ul><li>NOTE* If this plugin is installed after multiple saves have been made, then</li></ul>
+<p>each of those saves will have their own "Save-Unique" marker regardless of
+their origins, shared or not. This is NOT a bug and it cannot be changed.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Potential_Uses_for_Random_Number_Seeds">Potential Uses for Random Number Seeds</span></h3>
+<p>Here are some potential uses for Random Number Seeds:
+</p>
+<ul><li>Randomized puzzles: Puzzles can have different randomized starting points, and by seeding them, it prevents the player from abusing the reset function to get a favorable starting point.</li>
+<li>Randomized cutscenes: Sometimes, you want certain event cutscenes to trigger randomly. This allows for that to happen without the player save scumming to get the desired cutscene. Instead, the player will have to make do with whatever cutscene they found.</li>
+<li>Randomized gambling: Does your game have a casino? Do you want to make sure your player has to live with the conequences of the risks taken? By using a Random Number Seed, reloading a save is no longer possible to let them escape their fate from chance.</li>
+<li>Randomized choices: If you're using the VisuStella MZ Message Core and using the &lt;Shuffle&gt; text code for choices, you can use this plugin's text codes to add in Random Number Seeds to allow for randomized choices, too. By using the Random Number Seed, reloading a save won't let the player get new choices with the shuffled choices.</li></ul>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Extra_Features">Extra Features</span></h2>
+<p>There are some extra features found if other VisuStella MZ plugins are found
+present in the Plugin Manager list.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Battle_Core_VisuStella_MZ"><a href="/wiki/Battle_Core_VisuStella_MZ" title="Battle Core VisuStella MZ">Battle Core VisuStella MZ</a></span></h3>
+<p>Those using VisuStella MZ's Battle Core can launch visualized Dice Roll
+Plugin Commands from this plugin during the middle of Action Sequences as
+long as there is not a conflicting effect during it.
+</p><p>Conflict effects include Active Chain Skills, Input Combo Skills, or
+Evolution Matrix Skills. Dice-related Plugin Commands will not run at all
+while these skill mechanics are active.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Items_and_Equips_Core_VisuStella_MZ"><a href="/wiki/Items_and_Equips_Core_VisuStella_MZ" title="Items and Equips Core VisuStella MZ">Items and Equips Core VisuStella MZ</a></span></h3>
+<p>During Dice Rolls, you can have certain Automatic Effects or Bonus Effects
+require the presence or usage of items, weapons, and/or armors. If those
+items have a &lt;Color: x&gt; notetag inside them, the VisuStella MZ Items &amp;
+Equips Core will allow the color effect to go through. However, if the color
+notetag is &lt;Color: #rrggbb&gt;, extra help will be required from the VisuStella
+MZ Message Core for it to work.
+</p><p>---
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Notetags"><a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags</a></span></h2>
+<p><img src="https://img.itch.zone/aW1nLzQwMDQ3NzQucG5n/original/zLbbTl.png" />
+</p><p><a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>'s editor is unable to allow for custom traits/properties that a game dev may wish to associate with a database object, event, map, etc.  <a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags</a> are used to work around such limitations by allowing the game dev to tag certain traits/properties using specific Notetags declared by the related plugin.
+</p><p>Here is a list of <a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetag(s)</a> that you may use.
+</p><p><br />
+The following are notetags that have been added through this plugin. These
+notetags will not work with your game if this plugin is OFF or not present.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Action-Related_Notetags">Action-Related Notetags</span></h3>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>---
+</p>
+<pre>&lt;RNG Seed: x&gt;
+&lt;Daily Seed: x&gt;
+&lt;Unique Seed: x&gt;
+&lt;Daily Unique Seed: x&gt;
+
+- Used for: Skill, Item Notetags
+- Causes the skill or item to utilize Random Number Seeds to yield
+  predictable outcomes for damage, hit rate, critical rate, etc.
+- Replace 'x' with the "seed" you would like to use.
+  - Replace 'x' with "auto" to automatically name the seed based on the
+    skill/item's name.
+  - Seed will be furthered modified by the plugin based on the user, the
+    target, and the action used as to prevent RNG manipulation.
+- "RNG Seed" variant is a generalized seed.
+- "Daily Seed" variant will have results vary based on the day.
+- "Unique Seed" variant will have results vary based on save marker.
+- "Daily Unique Seed" variant will have results vary based on the day and
+    and save marker.
+- Only applies to the happenings of inside Game_Action.prototype.apply and
+  Action Sequence - MECH: Action Effect.
+  - For all other things, utilize the Plugin Commands for this plugin to
+    grab RNG-generated values within variables and use that or use the
+    script calls to access RNG-generated results.
+- If this notetag is not used, default to the settings found in the Plugin
+  Parameters for the default action Random Number Generator seed.
+
+  Example:
+
+    &lt;Unique Seed: RpgTsukuru&gt;
+</pre>
+<p>---
+</p>
+<pre>&lt;No RNG Seed&gt;
+
+- Used for: Skill, Item Notetags
+- Used to suppress the Plugin Parameter's default action Random Number
+  Generator seed and to prevent this skill/item from using RNG seeds.
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Text_Codes"><a href="/wiki/Category:Text_Codes_(MZ)" title="Category:Text Codes (MZ)">Text Codes</a></span></h2>
+<p><a href="/wiki/File:ShowTextWindowMZ.png" class="image"><img alt="ShowTextWindowMZ.png" src="/wiki/images/9/98/ShowTextWindowMZ.png" width="609" height="263" /></a>
+</p><p>Text Codes are used in the <b>Show Text</b> event command. They are used to display things that text normally can't produce on its own, such as colors, get the name of a specific actor, change icons, and more.
+</p><p><a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a> already comes with text codes of its own:
+</p>
+<table class="wikitable" style="width:800px">
+<tbody><tr>
+<td style="padding: 10px;">\V[n]
+</td>
+<td style="padding: 10px;">Will be replaced with the value of the nth variable.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\N[n]
+</td>
+<td style="padding: 10px;">Will be replaced with the name of the nth actor.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\P[n]
+</td>
+<td style="padding: 10px;">Will be replaced by the name of the nth (arranged order) party member.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\G
+</td>
+<td style="padding: 10px;">Will be replaced by the currency unit.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\C[n]
+</td>
+<td style="padding: 10px;">Draw the subsequent text in the nth color. Text color conforms to the contents of the [Window.png] system image.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\I[n]
+</td>
+<td style="padding: 10px;">Draws the nth icon.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\FS[n]
+</td>
+<td style="padding: 10px;">Changes the text font size to 'n'.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\{
+</td>
+<td style="padding: 10px;">Increases the text by 1 step.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\}
+</td>
+<td style="padding: 10px;">Decreases the text by 1 step.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\\
+</td>
+<td style="padding: 10px;">Replaced with the backslash character.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\$
+</td>
+<td style="padding: 10px;">Open the gold window.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\.
+</td>
+<td style="padding: 10px;">Wait for 1/4 second.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\|
+</td>
+<td style="padding: 10px;">Wait for 1 second.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\!
+</td>
+<td style="padding: 10px;">Wait for button input.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\&gt;
+</td>
+<td style="padding: 10px;">Display remaining text on same line all at once.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\&lt;
+</td>
+<td style="padding: 10px;">Cancel the effect that displays text all at once.
+</td></tr>
+<tr>
+<td style="padding: 10px;">\^
+</td>
+<td style="padding: 10px;">Do not wait for input after displaying the next.
+</td></tr></tbody></table>
+<p><br />
+The following are text codes that you may use with this plugin.
+</p>
+<h3><span class="mw-headline" id="Type-Related_Text_Codes">Type-Related Text Codes</span></h3>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>---
+</p>
+<table class="wikitable" style="width:800px">
+<tbody><tr>
+<th>Text Code</th>
+<th>Effect (Show Choice Text Only)
+</th></tr>
+<tr>
+<td style="width: 200px; padding: 10px;">&lt;RNG Seed: x&gt;
+</td>
+<td style="padding: 10px;">Allows &lt;Shuffle&gt; text code to use seed 'x'.
+<p>Requires VisuMZ_1_MessageCore!
+</p>
+</td></tr>
+<tr>
+<td style="width: 200px; padding: 10px;">&lt;Daily Seed: x&gt;
+</td>
+<td style="padding: 10px;">Allows &lt;Shuffle&gt; text code to use daily seed 'x'.
+<p>Requires VisuMZ_1_MessageCore!
+</p>
+</td></tr>
+<tr>
+<td style="width: 200px; padding: 10px;">&lt;Unique Seed: x&gt;
+</td>
+<td style="padding: 10px;">Allows &lt;Shuffle&gt; text code to use save unique seed 'x'.
+<p>Requires VisuMZ_1_MessageCore!
+</p>
+</td></tr>
+<tr>
+<td style="width: 200px; padding: 10px;">&lt;Daily Unique Seed: x&gt;
+</td>
+<td style="padding: 10px;">Allows &lt;Shuffle&gt; text code to use daily and save unique seed 'x'.
+<p>Requires VisuMZ_1_MessageCore!
+</p>
+</td></tr></tbody></table>
+<p>Example:
+</p>
+<pre>  Show Choices:
+
+    Choice A &lt;Shuffle: 3&gt;
+    Choice B &lt;Unique Seed: RpgTsukuru&gt;
+    Choice C
+    Choice D
+    Choice E
+    Choice F
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Plugin_Commands"><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands</a></span></h2>
+<p><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)"><img alt="PluginCommandsMZ.png" src="/wiki/images/f/f2/PluginCommandsMZ.png" width="600" height="300" /></a>
+</p><p><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands</a> are event commands that are used to call upon functions added by a plugin that aren't inherently a part of <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a>.
+</p><p>Here is a list of <a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Command(s)</a> that you may use:
+</p><p>---
+</p><p><br />
+The following are Plugin Commands that come with this plugin. They can be
+accessed through the Plugin Command event command.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Dice_Plugin_Commands">Dice Plugin Commands</span></h3>
+<p><a href="/wiki/File:DiceRolls_D20.gif" class="image"><img alt="DiceRolls D20.gif" src="/wiki/images/b/b0/DiceRolls_D20.gif" width="600" height="338" /></a>
+</p><p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command1.png" class="image"><img alt="DiceRollsRngSeeds Command1.png" src="/wiki/images/a/a4/DiceRollsRngSeeds_Command1.png" width="486" height="496" /></a>
+</p>
+<pre>Dice: Roll Value
+- Rolls a dice for any value and stores the result to a variable.
+
+  Dice Sides:
+  - How many sides does this dice have?
+
+    Total Dice Rolls:
+    - How many Dice Rolls do you want out of this?
+    - You may use code.
+    - Dice Rolls have a cap.
+
+  Variable ID:
+  - Insert the ID of the Variable to save the Dice Roll results to.
+  - Use 0 to not use.
+  - Results are after modifiers.
+
+    Result Type:
+    - What type of result do you want recorded to the variable?
+
+  Title Text:
+  - What is the title of this Dice Roll?
+  - Text codes allowed.
+  - Leave empty to not use.
+
+  Appearance &amp; Seed:
+  - What are the dice appearance &amp; seed settings used for this Dice Roll?
+
+  Auto Dice Effects:
+  - Adjust the modifier settings that automatically apply to the Dice Roll.
+
+  Bonus Dice Effects:
+  - Adjust the modifier settings are optionally applied to the Dice Roll
+   selected by the player.
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2.png" class="image"><img alt="DiceRollsRngSeeds Command2.png" src="/wiki/images/2/2a/DiceRollsRngSeeds_Command2.png" width="486" height="496" /></a>
+</p>
+<pre>Dice: Target Value
+- Rolls a dice for a target value and stores the result to a variable.
+
+  Dice Sides:
+  - How many sides does this dice have?
+
+  Switch ID:
+  - Insert the ID of the Switch to save the Dice Roll results to.
+  - Use 0 to not use.
+
+    Allow Natural Rolls?:
+    - Allow natural rolls which bypass modifiers?
+    - Natural 1 or Max = auto-fail or auto-success
+
+    Result Type:
+    - What type of result do you want recorded to the switch?
+
+    Target Roll Value:
+    - What should the target value be equal to?
+    - You may use code.
+
+    Variable ID:
+    - Insert the ID of the Variable to save the Dice Roll value to.
+    - Use 0 to not use.
+    - Results are after modifiers.
+
+  Title Text:
+  - What is the title of this Dice Roll?
+  - Text codes allowed. Leave empty to not use.
+
+  Appearance &amp; Seed:
+  - What are the dice appearance &amp; seed settings used for this Dice Roll?
+
+  Auto Dice Effects:
+  - Adjust the modifier settings that automatically apply to the Dice Roll.
+
+  Bonus Dice Effects:
+  - Adjust the modifier settings are optionally applied to the Dice Roll
+   selected by the player.
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2a.png" class="image"><img alt="DiceRollsRngSeeds Command2a.png" src="/wiki/images/7/7f/DiceRollsRngSeeds_Command2a.png" width="456" height="418" /></a>
+</p>
+<pre>Dice Appearance &amp; Seed Settings
+
+  Appearance Overrides:
+
+    D4 Image Filename(s):
+    D6 Image Filename(s):
+    D8 Image Filename(s):
+    D10 Image Filename(s):
+    D12 Image Filename(s):
+    D20 Image Filename(s):
+    - Use custom images for this dice?
+    - Priority over colors.
+    - Overrides default parameters.
+    - Location: img/pictures/
+
+    Dice Colors(s):
+    - Use #rrggbb for custom colors or regular numbers for text colors from
+      the Window Skin.
+    - Overrides default parameters.
+
+  Seed:
+  - What is the Random Number Seed used for this Dice Roll?
+  - Use numbers or text.
+  - Use "none" to not use a seed.
+
+    Daily Marker:
+    - Apply daily marker to Random Number results?
+
+    Save-Unique Marker:
+    - Apply save-unique marker to Random Number results?
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2b.png" class="image"><img alt="DiceRollsRngSeeds Command2b.png" src="/wiki/images/f/ff/DiceRollsRngSeeds_Command2b.png" width="456" height="418" /></a>
+</p>
+<pre>Auto Dice Effects
+
+  General Auto-Effects:
+  - These auto-effects will be automatically activated as long its
+    conditions are met at the start of the dice-roll.
+
+  Variable Requirements:
+  - These auto-effects require a variable(s) to be at least a certain value
+    to automatically activate.
+
+  Item Requirements:
+  - These auto-effects require an item(s) to have a certain quantity to
+    automatically activate.
+
+  Weapon Requirements:
+  - These auto-effects require a weapon(s) to be in party possession or is
+    equipped to automatically activate.
+
+  Armor Requirements:
+  - These auto-effects require an armor(s) to be in party possession or is
+    equipped to automatically activate.
+
+  Skill Requirements:
+  - These auto-effects require a skill(s) to be available within the party
+    to automatically activate.
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2d.png" class="image"><img alt="DiceRollsRngSeeds Command2d.png" src="/wiki/images/c/ca/DiceRollsRngSeeds_Command2d.png" width="456" height="418" /></a>
+</p>
+<pre>Auto-Effects
+- This section is a consolidation of the various Auto Dice Effects.
+
+  Auto Effect Name:
+  - What is the name of this effect?
+  - Text codes allowed.
+
+    Auto Effect Icon:
+    - The icon used for this effect.
+
+  Reference Data:
+
+    Required Variable ID:
+    - This variable is to be checked from.
+    - Changes don't affect effect mid-roll.
+
+      Required Value:
+      - Variable requires at least this much in value.
+      - You may use code.
+      - Changes don't affect effect mid-roll.
+
+    Required Item ID:
+    - This is the item whose quantity is checked.
+    - Changes don't affect effect mid-roll.
+
+      Required Value:
+      - Quantity requires at least this much in value.
+      - You may use code.
+      - Changes don't affect effect mid-roll.
+
+    Required Weapon ID:
+    - This is the weapon whose presence is checked.
+    - Changes don't affect effect mid-roll.
+
+      Include Equipped?:
+      - Allow equipped weapons to be included in the count.
+
+    Required Armor ID:
+    - This is the armor whose presence is checked.
+    - Changes don't affect effect mid-roll.
+
+      Include Equipped?:
+      - Allow equipped armors to be included in the count.
+
+    Required Skill ID:
+    - This is the skill whose presence is checked.
+    - Changes don't affect effect mid-roll.
+
+      Skill Learned Only?:
+      - Require the skill to be learned only or allow temporary skills?
+
+      Skill User(s):
+      - Select which actor(s) to check for the required skill.
+        - Party Leader
+        - Any Party Member
+        - Every Party Member
+        - Any Battle Member
+        - Every Battle Member
+        - Any Specific Actor(s)
+        - Every Specific Actor(s)
+
+      Specific Actor ID(s):
+      - Determine which "Specific Actor(s)" to pick from.
+      - Specific actor(s) must be in the party, main or reserve.
+
+      Show User Name?:
+      - Shows the skill user's name next to the skill name?
+
+      Require User Alive?:
+      - Requires the skill user to be alive?
+      - Or can they be dead or alive?
+
+  Dice Effects:
+
+    Count/Advantage:
+    - Change dice count (roll value) or advantage/disadvantage
+      (target value).
+    - You may use code.
+
+    Rank/Type:
+    - Raises/lowers dice rank: D4, D6, D8, D10, D12, D20.
+    - You may use code.
+    - Higher rank = more sides.
+
+    Modifier (Static):
+    - Alters the finalized rolled dice value.
+    - You may use code.
+
+    Modifier (Random):
+    - Adds a random element to the dice value.
+    - You may use code.
+
+  Additional Text:
+
+    Pre-Effect Text:
+    - What text is added before the dice effects text?
+    - Text codes allowed.
+
+    Post-Effect Text:
+    - What text is added after the dice effects text?
+    - Text codes allowed.
+
+  Effect Conditions:
+
+    Switch ID:
+    - This Switch is required to be ON to meet conditions.
+    - Use 0 to not use.
+    - Does not reveal mid-Dice Roll.
+
+    JS: Condition:
+    - JavaScript code used to determine the conditions for this dice effect
+      to be automatically activated.
+    - Does not reveal mid-Dice Roll.
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2c.png" class="image"><img alt="DiceRollsRngSeeds Command2c.png" src="/wiki/images/f/fc/DiceRollsRngSeeds_Command2c.png" width="456" height="418" /></a>
+</p>
+<pre>Bonus Dice Effects
+
+  General Bonus Effects:
+  - Add general bonus dice effects here that the player can select to use
+    the effect.
+
+  Variable Cost Effects:
+  - Variable Bonus Effects require deducting from variable(s) as a cost to
+    use the effect.
+
+  Item Cost Effects:
+  - Item Bonus Effects require consuming the target item(s) as a cost to use
+    the effect.
+
+  Weapon Cost Effects:
+  - Weapon Bonus Effects require consuming the target weapon(s) as a cost to
+    use the effect.
+
+  Armor Cost Effects:
+  - Armor Bonus Effects require consuming target the armor(s) as a cost to
+    use the effect.
+
+  Skill Cost Effects:
+  - Skill Bonus Effects require paying skill costs to activate and use the
+    effect.
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command2d.png" class="image"><img alt="DiceRollsRngSeeds Command2d.png" src="/wiki/images/c/ca/DiceRollsRngSeeds_Command2d.png" width="456" height="418" /></a>
+</p>
+<pre>Bonus Effects
+- This section is a consolidation of the various Bonus Dice Effects.
+
+  Bonus Effect Name:
+  - What is the name of this effect?
+  - Text codes allowed.
+
+    Bonus Effect Icon:
+    - The icon used for this effect.
+
+    Animation ID:
+    - Play this animation when the effect activates.
+    - Animation will play on the player character.
+
+  Effect Costs:
+
+    Variable Cost ID:
+    - This variable is to be deducted from.
+    - Changes do not reveal effect mid-Dice Roll.
+
+      Cost Value:
+      - Deduct this much from the target variable.
+      - You may use code.
+
+      Show Variable Cost?:
+      - Show variable cost?
+
+    Item Cost ID:
+    - This item is to be deducted from.
+    - Changes do not reveal effect mid-Dice Roll.
+
+      Cost Value:
+      - Deduct this much from the target item.
+      - You may use code.
+
+      Show Item Cost?:
+      - Show item cost?
+
+    Weapon Cost ID:
+    - This weapon is to be deducted from.
+    - Changes do not reveal effect mid-Dice Roll.
+
+      Cost Value:
+      - Deduct this much from the target weapon.
+      - You may use code.
+
+      Show Weapon Cost?:
+      - Show weapon cost?
+
+    Armor Cost ID:
+    - This armor is to be deducted from.
+    - Changes do not reveal effect mid-Dice Roll.
+
+      Cost Value:
+      - Deduct this much from the target armor.
+      - You may use code.
+
+      Show Armor Cost?:
+      - Show armor cost?
+
+    Skill Cost ID:
+    - This skill's cost is to be paid by an actor.
+    - Changes do not reveal effect mid-Dice Roll.
+
+      Skill Learned Only?:
+      - Require the skill to be learned only or allow temporary skills?
+
+      Skill User(s):
+      - Select which actor(s) to check for the required skill.
+        - Party Leader
+        - Any Party Member
+        - Every Party Member
+        - Any Battle Member
+        - Every Battle Member
+        - Any Specific Actor(s)
+        - Every Specific Actor(s)
+
+      Specific Actor ID(s):
+      - Determine which "Specific Actor(s)" to pick from.
+      - Specific actor(s) must be in the party, main or reserve.
+
+      Show User Name?:
+      - Shows the skill user's name next to the skill name?
+
+      Require User Alive?:
+      - Requires the skill user to be alive? Or can they be dead or alive?
+
+      Show Skill Cost?:
+      - Show skill cost?
+
+    Maximum Uses:
+    - How many times can this effect be used?
+    - You may use code.
+    - Over 1000000 for unlimited.
+
+      Show Uses Left?:
+      - Show how many uses are left?
+
+  Dice Effects:
+
+    Count/Advantage:
+    - Change dice count (roll value) or advantage/disadvantage
+      (target value).
+    - You may use code.
+
+    Rank/Type:
+    - Raises/lowers dice rank: D4, D6, D8, D10, D12, D20.
+    - You may use code.
+    - Higher rank = more sides.
+
+    Modifier (Static):
+    - Alters the finalized rolled dice value.
+    - You may use code.
+
+    Modifier (Random):
+    - Adds a random element to the dice value.
+    - You may use code.
+
+  Additional Text:
+
+    Pre-Cost Text:
+    - What text is added before the dice cost text?
+    - Text codes allowed.
+
+    Post-Cost Text:
+    - What text is added after the dice cost text?
+    - Text codes allowed.
+
+    Pre-Effect Text:
+    - What text is added before the dice effects text?
+    - Text codes allowed.
+
+    Post-Effect Text:
+    - What text is added after the dice effects text?
+    - Text codes allowed.
+
+  Effect Conditions:
+
+    Show Switch ID:
+    - This Switch is required to be ON to show effect.
+    - Use 0 to not use.
+    - Does not reveal mid-Dice Roll.
+
+    Enable Switch ID:
+    - This Switch is required to be ON to enable effect.
+    - Use 0 to not use.
+
+    JS: Show:
+    - JavaScript code used to determine show conditions for this dice
+      effect to become available for use.
+    - Does not reveal mid-Dice Roll.
+
+    JS: Enable:
+    - JavaScript code used to determine enable conditions for this dice
+      effect to become usable.
+
+    JS: On Select:
+    - JavaScript code used to determine what happens when this dice effect
+      is selected and activated.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="RNG_Plugin_Commands">RNG Plugin Commands</span></h3>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command3.png" class="image"><img alt="DiceRollsRngSeeds Command3.png" src="/wiki/images/e/e9/DiceRollsRngSeeds_Command3.png" width="486" height="496" /></a>
+</p>
+<pre>RNG: Random Number Between X and Y
+- Uses a seed to determine a random number between X and Y.
+
+  Variable ID:
+  - Insert the ID of the Variable to save this value to.
+
+  Minimum:
+  - Minimum value the random number can be.
+  - You may use JavaScript code.
+
+  Maximum:
+  - Maximum value the random number can be.
+  - You may use JavaScript code.
+
+  Seed:
+  - What is the Random Number Seed?
+  - Use numbers or text.
+
+  Daily Marker:
+  - Apply daily marker to Random Number results?
+
+  Save-Unique Marker:
+  - Apply save-unique marker to Random Number results?
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Command4.png" class="image"><img alt="DiceRollsRngSeeds Command4.png" src="/wiki/images/4/40/DiceRollsRngSeeds_Command4.png" width="486" height="496" /></a>
+</p>
+<pre>RNG: Reset Random Seed
+- Resets the random state for the target Random Number Seed.
+
+  Seed:
+  - What is the Random Number Seed?
+  - Use numbers or text.
+
+  Daily Marker:
+  - Apply daily marker to Random Number Seed?
+
+  Save-Unique Marker:
+  - Apply save-unique marker to Random Number Seed?
+</pre>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Script_Calls">Script Calls</span></h2>
+<p>The following are Script Calls that can be used with this plugin. These are
+made for JavaScript proficient users. We are not responsible if you use them
+incorrectly or for unintended usage.
+</p><p>---
+</p>
+<h3><span class="mw-headline" id="Dice_Roll-Related_Script_Calls">Dice Roll-Related Script Calls</span></h3>
+<p><a href="/wiki/File:DiceRolls_Modifier.gif" class="image"><img alt="DiceRolls Modifier.gif" src="/wiki/images/e/e3/DiceRolls_Modifier.gif" width="600" height="338" /></a>
+</p><p>---
+</p>
+<pre>$addDiceCount(value)
+
+- Adds 'value' to the current Dice Count.
+- Use with "Dice: Roll Value". Adds 'value' to current dice count.
+- Best used with the "JS: On Select" parameter found within the bonus
+  effects you can add to a Dice Roll Plugin Command.
+</pre>
+<p>---
+</p>
+<pre>$addDiceAdvantage(value)
+$addDiceDisadvantage(value)
+
+- Adds 'value' to the current Dice Advantage/Disadvantage.
+- Use with "Dice: Target Value". Adds 'value' to dice advantage or
+  disadvantage. Advantages and disadvantages offset each other.
+- Best used with the "JS: On Select" parameter found within the bonus
+  effects you can add to a Dice Roll Plugin Command.
+</pre>
+<p>---
+</p>
+<pre>$addDiceRank(value)
+
+- Adds 'value' to the current Dice Rank.
+- Ranks range from 1 to 6.
+  - Rank 1 - D4
+  - Rank 2 - D6
+  - Rank 3 - D8
+  - Rank 4 - D10
+  - Rank 5 - D12
+  - Rank 6 - D20
+- Best used with the "JS: On Select" parameter found within the bonus
+  effects you can add to a Dice Roll Plugin Command.
+</pre>
+<p>---
+</p>
+<pre>$addDiceModifier(value)
+$addDiceModRand(value)
+
+- Adds 'value' to the current Dice Modifier or the potential Dice Modifier
+  Random Range.
+- Best used with the "JS: On Select" parameter found within the bonus
+  effects you can add to a Dice Roll Plugin Command.
+</pre>
+<p>---
+</p>
+<h3><span class="mw-headline" id="Random_Seed-Related_Script_Calls">Random Seed-Related Script Calls</span></h3>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p>---
+</p>
+<pre>$rngSeed(seed)
+$dailyRngSeed(seed)
+$uniqueRngSeed(seed)
+$dailyUniqueRngSeed(seed)
+
+- Returns a float (a decimal number between 0 and 1) randomized from 'seed'.
+- Replace 'seed' with a number or string representing the seed you wish to
+  use to retrieve random numbers from.
+- This will bump up the seed state to the next random number.
+- Use the 'daily' variant for a customized seed based on the current date.
+- Use the 'unique' variant for a customized seed based on the current save
+  that will differ from other saves.
+
+- Examples:
+
+  - $rngSeed(12345)
+  - $rngSeed("Don Miguel")
+
+  - $dailyRngSeed(67890)
+  - $dailyRngSeed("Yoji Ojima")
+
+  - $uniqueRngSeed(246810)
+  - $uniqueRngSeed("VisuStella")
+</pre>
+<p>---
+</p>
+<pre>$resetRngSeed(seed)
+$resetDailyRngSeed(seed)
+$resetUniqueRngSeed(seed)
+$resetDailyUniqueRngSeed(seed)
+
+- Resets the seed state for random number generator 'seed' set.
+- Replace 'seed' with a number or string representing the seed you wish to
+  reset the seed state for.
+- Use the 'daily' variant to reset the customized seed based on the current
+  date.
+- Use the 'unique' variant to reset the customized seed based on the current
+  save that differs from other saves.
+
+- Examples:
+
+  - $resetRngSeed(12345)
+  - $resetRngSeed("Don Miguel")
+
+  - $resetDailyRngSeed(67890)
+  - $resetDailyRngSeed("Yoji Ojima")
+
+  - $resetUniqueRngSeed(246810)
+  - $resetUniqueRngSeed("VisuStella")
+</pre>
+<p>---
+</p>
+<h2><span class="mw-headline" id="Plugin_Parameters">Plugin Parameters</span></h2>
+<h3><span class="mw-headline" id="Dice_Roll_Settings">Dice Roll Settings</span></h3>
+<p><a href="/wiki/File:DiceRolls_DiceCount.gif" class="image"><img alt="DiceRolls DiceCount.gif" src="/wiki/images/f/f5/DiceRolls_DiceCount.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param1.png" class="image"><img alt="DiceRollsRngSeeds Param1.png" src="/wiki/images/2/25/DiceRollsRngSeeds_Param1.png" width="456" height="418" /></a>
+</p><p>Adjust the Dice Roll settings to fit your game. These range from mechanics
+to how the many-sided dice appear in-game and how the rolling animation will
+play out.
+</p><p>If you do not use images for the various sided-dice, do not worry. This
+plugin will use pre-rendered graphics to generate them for usage.
+</p><p>---
+</p><p>Mechanics:
+</p>
+<pre> Max Dice Count:
+ - What is the maximum number of dice that can be thrown at a time?
+</pre>
+<p>---
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param1a.png" class="image"><img alt="DiceRollsRngSeeds Param1a.png" src="/wiki/images/3/34/DiceRollsRngSeeds_Param1a.png" width="456" height="418" /></a>
+</p><p>Dice Appearances:
+</p>
+<pre> D4 Appearance:
+ D6 Appearance:
+ D8 Appearance:
+ D10 Appearance:
+ D12 Appearance:
+ D20 Appearance:
+ - Adjust the Dice Appearance settings for the dice here.
+</pre>
+<pre>   Image Filename(s):
+   - Use custom images for this dice?
+   - Priority over colors.
+   - Location: img/pictures/
+</pre>
+<pre>   Dice Colors(s):
+   - Use #rrggbb for custom colors or regular numbers for text colors from
+     the Window Skin.
+</pre>
+<pre>   Number Settings:
+</pre>
+<pre>     Font Size:
+     - Font size used for dice number.
+</pre>
+<pre>     Number Outline:
+     - What width to use for number outline?
+     - Use 0 to not use an outline.
+</pre>
+<pre>     Offset X:
+     - Offsets the number x position.
+     - Negative: left. Positive: right.
+</pre>
+<pre>     Offset Y:
+     - Offsets the number y position.
+     - Negative: up. Positive: down.
+</pre>
+<pre>   Position Settings:
+</pre>
+<pre>     Offset X:
+     - Offsets the sprite x position.
+     - Negative: left. Positive: right.
+</pre>
+<pre>     Offset Y:
+     - Offsets the sprite y position.
+     - Negative: up. Positive: down.
+</pre>
+<p>---
+</p><p>Color Ratios
+</p>
+<pre> Border Ratio:
+ - Used for generated colors.
+ - Darkness ratio for border color.
+</pre>
+<pre> Color 1 Ratio:
+ - Used for generated colors.
+ - Darkness ratio for darker color.
+</pre>
+<pre> Color 2 Ratio:
+ - Used for generated colors.
+ - Darkness ratio for middle color.
+</pre>
+<pre> Color 3 Ratio:
+ - Used for generated colors.
+ - Darkness ratio for main color.
+</pre>
+<p>---
+</p><p>Arrange Offset:
+</p>
+<pre> Offset X:
+ - Offsets the dice arrangement x position.
+ - Negative: left. Positive: right.
+</pre>
+<pre> Offset Y:
+ - Offsets the dice arrangement y position.
+ - Negative: up. Positive: down.
+</pre>
+<p>---
+</p><p>Fade Settings:
+</p>
+<pre> Fade In Duration:
+ - How many frames it takes to fade in dice?
+ - 60 frames = 1 second.
+</pre>
+<pre> Fade Out Duration:
+ - How many frames it takes to fade out dice?
+ - 60 frames = 1 second.
+</pre>
+<pre> Finalize Delay:
+ - How many frames to wait before fading out?
+ - 60 frames = 1 second.
+</pre>
+<p>---
+</p><p>Rolling Effect:
+</p>
+<pre> Dice Roll Duration:
+ - How many frames it takes to roll a dice?
+ - 60 frames = 1 second.
+</pre>
+<pre> Between Roll Delay:
+ - How many frames between multiple dice rolls?
+ - 60 frames = 1 second.
+</pre>
+<pre> Dice Roll Height:
+ - How high should the dice jump up for its roll in pixels?
+</pre>
+<pre> Dice Rotate Speed:
+ - How many degrees does the dice rotate per frame while rolling?
+</pre>
+<p>---
+</p><p>Movement Settings:
+</p>
+<pre> Move Duration:
+ - How many frames it takes to move dice?
+ - 60 frames = 1 second.
+</pre>
+<pre> Scaling Duration:
+ - How many frames it takes to change dice scale?
+ - 60 frames = 1 second.
+</pre>
+<pre> Number Climb Tick:
+ - How many frames are there between number ticks?
+ - 60 frames = 1 second.
+</pre>
+<pre> Max Number Duration:
+ - Max number of frames to process number ticks?
+ - 60 frames = 1 second.
+</pre>
+<pre> Number Color Shift:
+ - Allow dice number colors to change due to modifiers?
+</pre>
+<pre> Pre-Modifier Delay:
+ - Delay frames before applying modifiers?
+ -60 frames = 1 second.
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Random_Seed_Settings">Random Seed Settings</span></h3>
+<p><a href="/wiki/File:VisuMZ.144.jpg" class="image"><img alt="VisuMZ.144.jpg" src="/wiki/images/a/ae/VisuMZ.144.jpg" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param2.png" class="image"><img alt="DiceRollsRngSeeds Param2.png" src="/wiki/images/0/04/DiceRollsRngSeeds_Param2.png" width="456" height="418" /></a>
+</p><p>Random Number Seeds are generated using the linear congruential generator
+(LCG) algorithm to yield a sequence of pseudo-randomized numbers calculated
+with a nearly predictable but non-repeating piecewise linear equation.
+</p><p>More information regarding the algorithm can be found here:
+<a rel="nofollow" class="external free" href="https://en.wikipedia.org/wiki/Linear_congruential_generator">https://en.wikipedia.org/wiki/Linear_congruential_generator</a>
+</p><p>---
+</p><p>Linear Congruential Generator
+</p>
+<pre> Modulus:
+ - The linear congruential generator modulus.
+ - Do not change unless you know what you're doing.
+</pre>
+<pre> Multiplier:
+ - The linear congruential generator multiplier.
+ - Do not change unless you know what you're doing.
+</pre>
+<pre> Increment:
+ - The linear congruential generator increment.
+ - Do not change unless you know what you're doing.
+</pre>
+<p>---
+</p><p>Action Defaults
+</p>
+<pre> Default RNG Seed?
+ - Default seed used for actions.
+ - Use 'auto' to automatically create the seed based off the item or
+   skill's database name.
+ - Leave empty or 'none' to not use.
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Sound_Settings">Sound Settings</span></h3>
+<p><a href="/wiki/File:DiceRolls_Ranks.gif" class="image"><img alt="DiceRolls Ranks.gif" src="/wiki/images/5/58/DiceRolls_Ranks.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param3.png" class="image"><img alt="DiceRollsRngSeeds Param3.png" src="/wiki/images/6/6f/DiceRollsRngSeeds_Param3.png" width="456" height="418" /></a>
+</p><p>These settings let you adjust the sound effects used for this plugin.
+</p><p>---
+</p><p>Sound Types
+</p>
+<pre> Dice Throw Sound:
+ Increment Tick Sound:
+ Bonus Use Sound:
+ Roll Success Sound:
+ Roll Failure Sound:
+ Critical Failure Sound:
+ Critical Success Sound:
+</pre>
+<pre>   Filename:
+   - Filename of the sound effect played.
+</pre>
+<pre>   Volume:
+   - Volume of the sound effect played.
+</pre>
+<pre>   Pitch:
+   - Pitch of the sound effect played.
+</pre>
+<pre>   Pan:
+   - Pan of the sound effect played.
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Vocabulary_Settings">Vocabulary Settings</span></h3>
+<p><a href="/wiki/File:DiceRolls_Modifier.gif" class="image"><img alt="DiceRolls Modifier.gif" src="/wiki/images/e/e3/DiceRolls_Modifier.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param4.png" class="image"><img alt="DiceRollsRngSeeds Param4.png" src="/wiki/images/c/cd/DiceRollsRngSeeds_Param4.png" width="456" height="418" /></a>
+</p><p>These settings let you adjust the text displayed for this plugin.
+</p><p>---
+</p><p>Command Window:
+</p>
+<pre> Roll Command:
+ - Text used for the Roll Dice command.
+ - Text codes allowed.
+</pre>
+<pre> Effects Command:
+ - Text used for the View Effects command.
+ - Text codes allowed.
+</pre>
+<pre> Bonus Command:
+ - Text used for the Add Bonus command.
+ -Text codes allowed.
+</pre>
+<p>---
+</p><p>Text Colors:
+</p>
+<pre> Dice Count Up:
+ Dice Count Down:
+ Dice Rank Up:
+ Dice Rank Down:
+ Roll Modifier Up:
+ Roll Modifier Down:
+ - Text color used for this effect type.
+ - Insert number for text colors from the Window Skin.
+</pre>
+<p>---
+</p><p>Data Window Labels:
+</p>
+<pre> Dice Count:
+ Advantage:
+ Disadvantage:
+ Dice Rank:
+ Modifiers:
+ - Text used to display this data label.
+ - Text codes allowed.
+</pre>
+<p>---
+</p><p>Data Window Ranks:
+</p>
+<pre> Rank 1: D4:
+ Rank 2: D6:
+ Rank 3: D8:
+ Rank 4: D10:
+ Rank 5: D12:
+ Rank 6: D20:
+ - Text used to display this dice rank.
+ - Text codes allowed.
+</pre>
+<p>---
+</p><p>Dice Effects:
+</p>
+<pre> Dice Display Format:
+ - How the overall dice effect is displayed.
+ - %1 - Effect
+</pre>
+<pre> Pre/Post-Effect:
+ - How pre/post effect is displayed.
+ - %1 - Prev; %2 - Post
+</pre>
+<pre> Order Format:
+ - Order format used for dice effects.
+ - %1 - Count; %2 - Rank; %3 - Modifier
+</pre>
+<pre> Positive Plus Sign?:
+ - Show + sign for positive numbers?
+</pre>
+<pre> Dice Count Format:
+ - Text format used for Dice Count effect.
+ - %1 - Effect Number
+</pre>
+<pre> Advantage Format:
+ - Text format used for Advantage effect.
+ - %1 - Effect Number
+</pre>
+<pre> Disadvantage Format:
+ - Text format used for Disdvantage effect.
+ - %1 - Effect Number
+</pre>
+<pre> Dice Rank Format:
+ - Text format used for Dice Rank effect.
+ - %1 - Effect Number
+</pre>
+<pre> Roll Modifier Format:
+ - Text format used for Roll Modifier effect.
+ - %1 - Effect Number
+</pre>
+<p>---
+</p><p>Effect Costs:
+</p>
+<pre> Cost Display Format:
+ - How the overall cost is displayed.
+ - %1 - Cost Text
+</pre>
+<pre> Pre/Post-Cost:
+ - How pre/post cost text is displayed.
+ - %1 - Prev; %2 - Post
+</pre>
+<pre> Used Up:
+ - How a cost is displayed when its uses are spent.
+ - Text codes allowed.
+</pre>
+<pre> Use Times Format:
+ - How use times are formated.
+ - %1 - Current; %2 - Max Uses; %3 - Remaining
+</pre>
+<pre>   Show Max Use of 1?:
+   - Show the use cost when there's only 1 max use?
+</pre>
+<pre>   Unlimited Uses:
+   - Text used to indicate unlimited usage.
+   - Text codes allowed.
+</pre>
+<pre> Variable Cost Format:
+ - How variable cost is displayed.
+ - %1 - Cost; %2 - Quantity
+</pre>
+<pre> Item Cost Format:
+ - How item cost is displayed.
+ - %1 - Cost; %2 - Quantity
+</pre>
+<pre> Weapon Cost Format:
+ - How weapon cost is displayed.
+ - %1 - Cost; %2 - Quantity
+</pre>
+<pre> Variable Cost Format:
+ - How variable cost is displayed.
+ - %1 - Cost; %2 - Quantity
+</pre>
+<pre> Skill User's Name:
+ - How the skill user's name is displayed.
+ - %1 - Name
+</pre>
+<pre>   User to Cost Format:
+   - How the skill user's name is displayed to cost.
+   - %1 - Name; %2 - Skill Cost
+</pre>
+<p>---
+</p><p>Subtitle Window:
+</p>
+<pre> Roll for Total:
+ - Subtitle text for a roll total.
+</pre>
+<pre> Roll for Highest:
+ - Subtitle text to roll for highest.
+</pre>
+<pre> Roll for Average:
+ - Subtitle text to roll for average.
+</pre>
+<pre> Roll for Lowest:
+ - Subtitle text to roll for lowest.
+</pre>
+<pre> Roll: &gt; Target:
+ - Subtitle text to roll for above target.
+ - %1 - Target Roll
+</pre>
+<pre> Roll: &gt;= Target:
+ - Subtitle text to roll for above/equal target.
+ - %1 - Target Roll
+</pre>
+<pre> Roll: &lt;= Target:
+ - Subtitle text to roll for below/equal target.
+ - %1 - Target Roll
+</pre>
+<pre> Roll: &lt; Target:
+ - Subtitle text to roll for below target.
+ - %1 - Target Roll
+</pre>
+<pre> Critical Success:
+ - Subtitle text for a Critical Success on a Natural Roll.
+</pre>
+<pre> Critical Failure:
+ - Subtitle text for a Critical Failure on a Natural Roll.
+</pre>
+<p>---
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Window_Settings">Window Settings</span></h3>
+<p><a href="/wiki/File:DiceRolls_Advantage.gif" class="image"><img alt="DiceRolls Advantage.gif" src="/wiki/images/a/a7/DiceRolls_Advantage.gif" width="600" height="338" /></a>
+</p><p><a href="/wiki/File:DiceRollsRngSeeds_Param5.png" class="image"><img alt="DiceRollsRngSeeds Param5.png" src="/wiki/images/c/c2/DiceRollsRngSeeds_Param5.png" width="456" height="418" /></a>
+</p><p>These settings let you adjust the windows displayed for this plugin.
+</p><p>---
+</p><p>Sprite Container:
+</p>
+<pre> JS: X, Y, W, H:
+ - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p>Title Window:
+</p>
+<pre> Background Type:
+ - Select background type for this window.
+</pre>
+<pre> JS: X, Y, W, H:
+ - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p>Subtitle Window:
+</p>
+<pre> Background Type:
+ - Select background type for this window.
+</pre>
+<pre> JS: X, Y, W, H:
+ - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p>Data Windows:
+</p>
+<pre> Dice Count: BG Type:
+ - Select background type for this window.
+</pre>
+<pre>   JS: X, Y, W, H:
+   - Code used to determine the dimensions for this window.
+</pre>
+<pre> Dice Rank: BG Type:
+ - Select background type for this window.
+</pre>
+<pre>   JS: X, Y, W, H:
+   - Code used to determine the dimensions for this window.
+</pre>
+<pre> Modifier: BG Type:
+ - Select background type for this window.
+</pre>
+<pre>   JS: X, Y, W, H:
+   - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p>Command Window:
+</p>
+<pre> Background Type:
+ - Select background type for this window.
+</pre>
+<pre> Show "View Effects"?:
+ - Show "View Effects" command?
+</pre>
+<pre> Show "Add Bonus"?:
+ - Show "Add Bonus" command?
+</pre>
+<pre> Text Align:
+ - Text alignment for this window?
+</pre>
+<pre> JS: X, Y, W, H:
+ - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p>List Windows:
+</p>
+<pre> Effect List: BG Type:
+ - Select background type for this window.
+</pre>
+<pre> Bonus List: BG Type:
+ - Select background type for this window.
+</pre>
+<pre> Window Columns:
+ - How many columns are used for these windows?
+</pre>
+<pre> Column Spacing:
+ - How much spacing is there between columns?
+</pre>
+<pre> JS: X, Y, W, H:
+ - Code used to determine the dimensions for this window.
+</pre>
+<p>---
+</p><p><br />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Terms_of_Use">Terms of Use</span></h2>
+<p>1. These plugins may be used in free or commercial games provided that they
+have been acquired through legitimate means at VisuStella.com and/or any
+other official approved VisuStella sources. Exceptions and special
+circumstances that may prohibit usage will be listed on VisuStella.com.
+</p><p>2. All of the listed coders found in the Credits section of this plugin must
+be given credit in your games or credited as a collective under the name:
+"VisuStella".
+</p><p>3. You may edit the source code to suit your needs, so long as you do not
+claim the source code belongs to you. VisuStella also does not take
+responsibility for the plugin if any changes have been made to the plugin's
+code, nor does VisuStella take responsibility for user-provided custom code
+used for custom control effects including advanced JavaScript notetags
+and/or plugin parameters that allow custom JavaScript code.
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_4" title="VisuStella MZ Terms of Use Article 4">4. You may NOT redistribute these plugins nor take code from this plugin to
+use as your own. These plugins and their code are only to be downloaded from
+VisuStella.com and other official/approved VisuStella sources. A list of
+official/approved sources can also be found on VisuStella.com.</a>
+</p><p>5. VisuStella is not responsible for problems found in your game due to
+unintended usage, incompatibility problems with plugins outside of the
+VisuStella MZ library, plugin versions that aren't up to date, nor
+responsible for the proper working of compatibility patches made by any
+third parties. VisuStella is not responsible for errors caused by any
+user-provided custom code used for custom control effects including advanced
+JavaScript notetags and/or plugin parameters that allow JavaScript code.
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_6" title="VisuStella MZ Terms of Use Article 6">6. If a compatibility patch needs to be made through a third party that is
+unaffiliated with VisuStella that involves using code from the VisuStella MZ
+library, contact must be made with a member from VisuStella and have it
+approved. The patch would be placed on VisuStella.com as a free download
+to the public. Such patches cannot be sold for monetary gain, including
+commissions, crowdfunding, and/or donations.</a>
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_7" title="VisuStella MZ Terms of Use Article 7">7. If this VisuStella MZ plugin is a paid product, all project team members
+must purchase their own individual copies of the paid product if they are to
+use it. Usage includes working on related game mechanics, managing related
+code, and/or using related Plugin Commands and features. Redistribution of
+the plugin and/or its code to other members of the team is NOT allowed
+unless they own the plugin itself as that conflicts with Article 4.</a>
+</p><p>8. Any extensions and/or addendums made to this plugin's Terms of Use can be
+found on VisuStella.com and must be followed.
+</p>
+<h3><span class="mw-headline" id="Terms_of_Use:_Japanese">Terms of Use: Japanese</span></h3>
+<hr />
+<p>『VisuStella MZ』利用規約
+</p><p>1. これらのプラグインは、VisuStella.comおよび/または公式に承認されたVisuStellaのソースから合法的な手段で入手したものである限り、フリーゲームや商用ゲームに使用することができます。例外的に使用が禁止される場合については、VisuStella.comの記載をご確認ください。
+</p><p>2. 本プラグインの「クレジット」部分に記載されているすべてのコーダーの名前は、ゲーム内にクレジット表記を行うか、もしくは「VisuStella」という名前の下にまとめて表記する必要があります。
+</p><p>3. ソースコードを自分のものだと主張しない限りは、必要に応じて編集することが可能です。ただしプラグインのコードに変更が加えられた場合、VisuStellaはそのプラグインに対して一切の責任を負いません。高度なJavaScriptのノートタグやJavaScriptコードを許可するプラグインのパラメータを含む、カスタムコントロールエフェクトに使用される、ユーザー提供のカスタムコードについても、VisuStellaは一切の責任を負いません。
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_4" title="VisuStella MZ Terms of Use Article 4">4. これらのプラグインやプラグイン内のコードを、「自分のもの」として再配布したり使用したりすることはできません。これらのプラグインとそのコードは、VisuStella.comおよび、その他の公式/承認済みVisuStellaソースからのみダウンロードすることができます。公式/承認済みのソースのリストは、VisuStella.comでご確認いただけます。</a>
+</p><p>5. VisuStellaは、意図しない使用方法による問題、VisuStella MZライブラリ以外のプラグインとの非互換性の問題、プラグインのバージョンが最新でないことによる問題、第三者による互換性パッチが適切に動作していないことなどが原因でゲーム内で発生した問題については、一切の責任を負いません。VisuStellaは、高度なJavaScriptのノートタグやJavaScriptコードを許可するプラグインのパラメータを含む、カスタムコントロールエフェクトに使用される、ユーザー提供のカスタムコードに起因するエラーについても、一切の責任を負いません。
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_6" title="VisuStella MZ Terms of Use Article 6">6. VisuStella MZライブラリのコードを使用した互換性パッチをVisuStellaとは関係のない第三者を通じて作成する必要がある場合は、まずVisuStellaのメンバーと連絡を取り、承認を得る必要があります。パッチはVisuStella.comに公開され、誰でも無料でダウンロードすることができるようになります。このようなパッチを、制作発注やクラウドファンディングの対象にしたり、寄付などの金銭的な利益を得るために販売することはできません。</a>
+</p><p><a href="/wiki/VisuStella_MZ_Terms_of_Use_Article_7" title="VisuStella MZ Terms of Use Article 7">7. このVisuStella MZプラグインが商用製品である場合、プロジェクトチームのすべてのメンバーは、それを使用するため、それぞれ製品を購入しなければなりません。使用方法には、関連するゲームメカニクスの作業、関連するコードの管理、および/または関連するプラグインコマンドや機能の使用、が含まれます。プラグインそのものやそのコードをチームの他のメンバーに再配布することは第4項に抵触するため、そのメンバーがプラグインそのものを所有していない限りは許可されません。</a>
+</p><p>8. このプラグインの利用規約の追加項目や補足については、VisuStella.comに掲載されていますので、それを参照し従ってください。
+</p>
+<h2><span class="mw-headline" id="Credits">Credits</span></h2>
+<p>If you are using this plugin, credit the following people in your game:
+</p><p>Team VisuStella
+</p>
+<ul><li><a href="/wiki/Arisu" class="mw-redirect" title="Arisu">Arisu</a></li>
+<li><a href="/wiki/Irina" class="mw-redirect" title="Irina">Irina</a></li>
+<li><a href="/wiki/Olivia" class="mw-redirect" title="Olivia">Olivia</a></li>
+<li><a href="/wiki/Yanfly" class="mw-redirect" title="Yanfly">Yanfly</a></li></ul>
+<p><a rel="nofollow" class="external text" href="https://creazilla.com/pages/11-creazilla-open-source-license">Creazilla Open-Source</a>
+</p>
+<ul><li>Many of the canvas drawings are made by various artists under Creazilla.</li>
+<li>These are under the Creazilla Open-Source License.</li>
+<li>They are free for personal and commercial use. No attribution required.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Changelog">Changelog</span></h2>
+<p>Version 1.01: June 13, 2024
+</p>
+<ul><li>Bug Fixes!
+<ul><li>Fixed a bug where the Plugin Parameter text for "Armor Cost Format" has an incorrect label as "Variable Cost Format". Fix made by Arisu.</li></ul></li></ul>
+<p><br />
+</p><p>Version 1.00 Official Release Date: January 26, 2024
+</p>
+<ul><li>Finished Plugin!</li></ul>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<ul><li><a href="/wiki/Inspiration_Behind_Custom_Construct_Volume_4" class="mw-redirect" title="Inspiration Behind Custom Construct Volume 4">Inspiration Behind Custom Construct Volume 4</a></li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="End_of_Helpfile">End of Helpfile</span></h2>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20240815001401
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.194 seconds
+Real time usage: 0.311 seconds
+Preprocessor visited node count: 346/1000000
+Preprocessor generated node count: 1041/1000000
+Post‐expand include size: 17014/2097152 bytes
+Template argument size: 99/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 19587/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   66.930      1 -total
+ 25.05%   16.768      1 Template:MzPlugin
+ 13.55%    9.070      1 Template:VisuStella_Custom_Construct_Vol_4
+ 12.77%    8.546      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Text_Codes
+ 10.75%    7.198      1 Template:MZ_Tier_4
+ 10.69%    7.153      1 Template:Notetags_MZ
+  9.92%    6.642      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Notetags
+  8.27%    5.537      1 Template:Visustella_MZ
+  7.45%    4.984      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Plugin_Commands
+  6.74%    4.513      1 Template:Text_Codes_MZ
+-->
+
+<!-- Saved in parser cache with key yanfly_mw4-mw_:pcache:idhash:4213-0!canonical and timestamp 20240815001401 and revision id 16773
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.yanfly.moe/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;oldid=16773">http://www.yanfly.moe/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;oldid=16773</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:RPG_Maker_MZ_Plugins" title="Category:RPG Maker MZ Plugins">RPG Maker MZ Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Tier_4_Plugins" title="Category:RPG Maker MZ Tier 4 Plugins">RPG Maker MZ Tier 4 Plugins</a></li><li><a href="/wiki/Category:Notetags_(MZ)" title="Category:Notetags (MZ)">Notetags (MZ)</a></li><li><a href="/wiki/Category:Text_Codes_(MZ)" title="Category:Text Codes (MZ)">Text Codes (MZ)</a></li><li><a href="/wiki/Category:Plugin_Commands_(MZ)" title="Category:Plugin Commands (MZ)">Plugin Commands (MZ)</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Gameplay_Plugins" title="Category:RPG Maker MZ Gameplay Plugins">RPG Maker MZ Gameplay Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Eventing_Plugins" title="Category:RPG Maker MZ Eventing Plugins">RPG Maker MZ Eventing Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Utility_Plugins" title="Category:RPG Maker MZ Utility Plugins">RPG Maker MZ Utility Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Mechanical_Plugins" title="Category:RPG Maker MZ Mechanical Plugins">RPG Maker MZ Mechanical Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Visual_Plugins" title="Category:RPG Maker MZ Visual Plugins">RPG Maker MZ Visual Plugins</a></li><li><a href="/wiki/Category:RPG_Maker_MZ_Quality_of_Life_Plugins" title="Category:RPG Maker MZ Quality of Life Plugins">RPG Maker MZ Quality of Life Plugins</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Dice+Rolls+and+RNG+Seeds+VisuStella+MZ" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Dice_Rolls_and_RNG_Seeds_VisuStella_MZ" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/wiki/index.php?title=Talk:Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Dice_Rolls_and_RNG_Seeds_VisuStella_MZ">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/wiki/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Yanfly.moe Wiki" title="Search Yanfly.moe Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Assets_.26_Resources" aria-labelledby="p-Assets_.26_Resources-label">
+			<h3 id="p-Assets_.26_Resources-label">Assets &amp; Resources</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.A8All-Assets"><a href="/wiki/Category:RPG_Maker_Graphic_Assets">🎨All Assets</a></li><li id="n-.F0.9F.91.B9.C3.86kashics"><a href="/wiki/%C3%86kashics_Librarium">👹Ækashics</a></li><li id="n-.F0.9F.90.BACaz-Wolf"><a href="/wiki/Caz_Wolf">🐺Caz Wolf</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.8C.BBSample-Game"><a href="/wiki/VisuStella_Sample_Game_Project">🌻Sample Game</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MZ.29" aria-labelledby="p-Plugin_Libraries_.28MZ.29-label">
+			<h3 id="p-Plugin_Libraries_.28MZ.29-label">Plugin Libraries (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MZ_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.8E.ADVisuStella-MZ"><a href="/wiki/VisuStella_MZ">🎭VisuStella MZ</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-MZ_Plugin_Help" aria-labelledby="p-MZ_Plugin_Help-label">
+			<h3 id="p-MZ_Plugin_Help-label">MZ Plugin Help</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.99.E2.80.8D.E2.99.80.EF.B8.8FInstalling-Plugins"><a href="/wiki/How_to_Install_Plugins_RPG_Maker_MZ">🧙‍♀️Installing Plugins</a></li><li id="n-.F0.9F.94.84Updating-Plugins"><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ">🔄Updating Plugins</a></li><li id="n-.F0.9F.95.B5.EF.B8.8FTroubleshooting"><a href="/wiki/Troubleshooting_Plugins_RPG_Maker_MZ">🕵️Troubleshooting</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MZ.29" aria-labelledby="p-Reference_List_.28MZ.29-label">
+			<h3 id="p-Reference_List_.28MZ.29-label">Reference List (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.93.9AChangelog"><a href="/wiki/VisuStella_MZ_Changelog">📚Changelog</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MZ)">📔Notetags</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MZ)">🐧Plugin Commands</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MZ)">🧮Text Codes</a></li><li id="n-.F0.9F.93.9AGlossary"><a href="/wiki/Glossary">📚Glossary</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MV.29" aria-labelledby="p-Plugin_Libraries_.28MV.29-label">
+			<h3 id="p-Plugin_Libraries_.28MV.29-label">Plugin Libraries (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MV_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.90.8FAries-of-Sheratan"><a href="/wiki/Aries_of_Sheratan">🐏Aries of Sheratan</a></li><li id="n-.F0.9F.8E.8EArisu.27s-Dollhouse"><a href="/wiki/Arisu%27s_Dollhouse">🎎Arisu's Dollhouse</a></li><li id="n-.F0.9F.91.93Atelier-Irina"><a href="/wiki/Atelier_Irina">👓Atelier Irina</a></li><li id="n-.F0.9F.91.BCFallen-Angel-Olivia"><a href="/wiki/Fallen_Angel_Olivia">👼Fallen Angel Olivia</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.90.87Yanfly-Engine"><a href="/wiki/Yanfly_Engine_Plugins">🐇Yanfly Engine</a></li><li id="n-.F0.9F.90.B0Tips-.26-Tricks"><a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks">🐰Tips &amp; Tricks</a></li><li id="n-.F0.9F.93.BASample-Projects"><a href="/wiki/Category:Sample_Projects_(MV)">📺Sample Projects</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MV.29" aria-labelledby="p-Reference_List_.28MV.29-label">
+			<h3 id="p-Reference_List_.28MV.29-label">Reference List (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.ACAction-Sequences"><a href="/wiki/Category:Action_Sequences_(MV)">🎬Action Sequences</a></li><li id="n-.F0.9F.92.ACComment-Tags"><a href="/wiki/Category:Comment_Tags_(MV)">💬Comment Tags</a></li><li id="n-.F0.9F.8D.8EMain-Menu-Intgr."><a href="/wiki/Category:Main_Menu_Manager_Integration_(MV)">🍎Main Menu Intgr.</a></li><li id="n-.F0.9F.8C.99Lunatic-Mode"><a href="/wiki/Category:Lunatic_Mode_(MV)">🌙Lunatic Mode</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MV)">📔Notetags</a></li><li id="n-.F0.9F.96.B1.EF.B8.8FOptions-Integration"><a href="/wiki/Category:Options_Core_Integration_(MV)">🖱️Options Integration</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MV)">🐧Plugin Commands</a></li><li id="n-.F0.9F.8E.AEScript-Calls"><a href="/wiki/Category:Script_Calls_(MV)">🎮Script Calls</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MV)">🧮Text Codes</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Affiliate" aria-labelledby="p-Affiliate-label">
+			<h3 id="p-Affiliate-label">Affiliate</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.91.E2.80.8D.F0.9F.A4.9D.E2.80.8D.F0.9F.A7.91Affiliate-Websites"><a href="/wiki/Affiliate_Websites">🧑‍🤝‍🧑Affiliate Websites</a></li><li id="n-.F0.9F.8E.B2Afilliates.27-Games"><a href="/wiki/Afilliates%27_Games">🎲Afilliates' Games</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Dice_Rolls_and_RNG_Seeds_VisuStella_MZ" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Dice_Rolls_and_RNG_Seeds_VisuStella_MZ" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;oldid=16773" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/wiki/index.php?title=Dice_Rolls_and_RNG_Seeds_VisuStella_MZ&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 12 June 2024, at 11:49.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/wiki/My_wiki:Privacy_policy" title="My wiki:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/My_wiki:About" title="My wiki:About">About Yanfly.moe Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/My_wiki:General_disclaimer" title="My wiki:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/wiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.194","walltime":"0.311","ppvisitednodes":{"value":346,"limit":1000000},"ppgeneratednodes":{"value":1041,"limit":1000000},"postexpandincludesize":{"value":17014,"limit":2097152},"templateargumentsize":{"value":99,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":19587,"limit":5000000},"timingprofile":["100.00%   66.930      1 -total"," 25.05%   16.768      1 Template:MzPlugin"," 13.55%    9.070      1 Template:VisuStella_Custom_Construct_Vol_4"," 12.77%    8.546      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Text_Codes"," 10.75%    7.198      1 Template:MZ_Tier_4"," 10.69%    7.153      1 Template:Notetags_MZ","  9.92%    6.642      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Notetags","  8.27%    5.537      1 Template:Visustella_MZ","  7.45%    4.984      1 Template:VisuMZ_Dice_Rolls_and_RNG_Seeds_Plugin_Commands","  6.74%    4.513      1 Template:Text_Codes_MZ"]},"cachereport":{"timestamp":"20240815001401","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":94});});</script>
+	</body>
+</html>
