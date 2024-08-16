@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Phoenix Ring (MV Plugin Tips &amp; Tricks) - Yanfly.moe Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Phoenix_Ring_(MV_Plugin_Tips_\u0026_Tricks)","wgTitle":"Phoenix Ring (MV Plugin Tips \u0026 Tricks)","wgCurRevisionId":2555,"wgRevisionId":2555,"wgArticleId":842,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Display templates","RPG Maker MV Plugin Tips \u0026 Tricks"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Phoenix_Ring_(MV_Plugin_Tips_\u0026_Tricks)","wgRelevantArticleId":842,"wgRequestId":"Zr3EoES45wYj3rFky_JDLgAAAE4","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.2"/>
+<link rel="shortcut icon" href="/wiki/images/icon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Yanfly.moe Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://www.yanfly.moe/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Yanfly.moe Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Phoenix_Ring_MV_Plugin_Tips_Tricks rootpage-Phoenix_Ring_MV_Plugin_Tips_Tricks skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Phoenix Ring (MV Plugin Tips &amp; Tricks)</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Yanfly.moe Wiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><span class="nomobile">
+</span></p>
+<table style="width: 100%; margin: 5px auto; text-align: center; border: none;">
+<tbody><tr>
+<td>
+<a href="http://www.yanfly.moe/wiki/Category:Yanfly_Engine_Plugins"><img src="https://img.itch.zone/aW1nLzE5NzI3NzYucG5n/original/wpb0Ze.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/"><img src="https://img.itch.zone/aW1nLzQwMzg4MjYucG5n/315x250%23c/sBmlSn.png" width="170" /></a>
+<a href="https://visustellamz.itch.io/access-key-visustella-mz"><img src="https://img.itch.zone/aW1nLzY3MjkyODMucG5n/original/2Cr5JK.png" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Category:%C3%86kashics_Librarium"><img src="http://yanfly.moe/wp-content/uploads/2019/05/pdrbanner.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Caz_Wolf'><img src='https://img.itch.zone/aW1nLzMxMjExMTYuZ2lm/180x143%23c/bqW0Kd.gif' width='170'></a> -->
+<a href="https://store.steampowered.com/app/2937520/Sacred_Earth__Reverie/"><img src="http://www.yanfly.moe/wiki/images/0/0b/SacredEarthRevGif.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Luna_Engine_MV_(Visustella)"><img src="https://img.itch.zone/aW1nLzIxNjQ5MTkuZ2lm/original/IGNDo7.gif" width="170" /></a>
+<a href="https://pixelodyssey.itch.io/2500-fantasy-rpg-icons"><img src="https://img.itch.zone/aW1hZ2UvNjM0OTU1LzMzOTM3MTIuZ2lm/250x600/4ggWwH.gif" width="170" /></a>
+<a href="http://www.yanfly.moe/wiki/Fallen_Angel_Olivia"><img src="http://yanfly.moe/img/sidebar/OliviaLink.gif" width="170" /></a>
+<!-- <a href='http://www.yanfly.moe/wiki/Category:Atelier_Irina'><img src='https://img.itch.zone/aW1nLzI5MjM1MTguZ2lm/original/y1jQXb.gif' width='170'></a> -->
+<!-- <a href='http://www.yanfly.moe/wiki/Visual_Item_Inventory_(Arisu)'><img src='https://img.itch.zone/aW1hZ2UvNDg1OTQwLzI1MDgzODIucG5n/original/9tfprF.png' width='170'></a> -->
+
+</td></tr></tbody></table>
+<p class="mw-empty-elt">
+</p>
+<div style="width: 75%; margin: auto; background: #161616; border: 1px solid #111;"><div style="background: #252525; border: 1px solid #252525; padding: 5px; margin: 3px; font-weight: bold; text-align: center;">Welcome to the wiki! This is where you can find resources from <a rel="nofollow" class="external text" href="http://www.yanfly.moe">Yanfly.moe</a>, <a rel="nofollow" class="external text" href="https://aekashics.itch.io/">Ækashics.moe</a>, <br />
+<a rel="nofollow" class="external text" href="http://www.visustella.com/">VisuStella</a>, <a rel="nofollow" class="external text" href="https://cazwolf.itch.io/">Caz Wolf</a>, <a rel="nofollow" class="external text" href="https://fallenangelolivia.itch.io/">Fallen Angel Olivia</a>, <a rel="nofollow" class="external text" href="https://atelieririna.itch.io/">Atelier Irina</a>, and other affiliated content creators.</div></div>
+<p><br />
+</p>
+<div style="float: right; margin-left: 1em;"><div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1"><a href="#Required_Plugins"><span class="tocnumber">1</span> <span class="toctext">Required Plugins</span></a></li>
+<li class="toclevel-1"><a href="#About"><span class="tocnumber">2</span> <span class="toctext">About</span></a></li>
+<li class="toclevel-1"><a href="#Yanfly_Engine_Plugins"><span class="tocnumber">3</span> <span class="toctext">Yanfly Engine Plugins</span></a></li>
+<li class="toclevel-1"><a href="#Warning_for_RPG_Maker_MZ_Users"><span class="tocnumber">4</span> <span class="toctext">Warning for RPG Maker MZ Users</span></a></li>
+<li class="toclevel-1"><a href="#Instructions"><span class="tocnumber">5</span> <span class="toctext">Instructions</span></a></li>
+</ul>
+</div>
+</div>
+<p><iframe width="800" height="450" src="//www.youtube-nocookie.com/embed/leEdWQYsSLk" frameborder="0" allowfullscreen=""></iframe>
+</p>
+<table style="width: 800px;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td style="width: 100%; vertical-align: top;">
+<p>The Phoenix Ring is a ring that will protect its user from a one-time death by immediately reviving them with a percentage of their HP left and then breaking. This piece of equipment can be recreated in RPG Maker MV and this video will show you how!~
+</p>
+<h2><span class="mw-headline" id="Required_Plugins">Required Plugins</span></h2>
+<p>The following plugin(s) is required to create this Tips &amp; Tricks effect:
+</p>
+<ul><li><a href="/wiki/Buffs_%26_States_Core_(YEP)" title="Buffs &amp; States Core (YEP)">Buffs &amp; States Core</a></li></ul>
+<p>For help on how to install plugins, <a href="/wiki/How_to_Install_Plugins_(RPG_Maker_MV)" title="How to Install Plugins (RPG Maker MV)">click here</a>.
+</p><p>For help on how to update plugins, <a href="/wiki/How_to_Update_Plugins_(RPG_Maker_MV)" title="How to Update Plugins (RPG Maker MV)">click here</a>.
+</p>
+<h2><span class="mw-headline" id="About">About</span></h2>
+<p>This is a <a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks" title="Category:RPG Maker MV Plugin Tips &amp; Tricks">Tips &amp; Tricks</a> effect created for <a href="/wiki/RPG_Maker_MV" title="RPG Maker MV">RPG Maker MV</a>. Tips &amp; Tricks are not to be confused with <a href="/wiki/Category:RPG_Maker_MV_Plugins" title="Category:RPG Maker MV Plugins">plugins</a>. Instead, they are usually customized code created for the sake of producing unique features/effects that do not require an entire plugin to do.
+</p>
+<h2><span class="mw-headline" id="Yanfly_Engine_Plugins"><a href="/wiki/Category:Yanfly_Engine_Plugins" title="Category:Yanfly Engine Plugins">Yanfly Engine Plugins</a></span></h2>
+<p>This <a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks" title="Category:RPG Maker MV Plugin Tips &amp; Tricks">Tips &amp; Tricks</a> effect is made possible due to the <a href="/wiki/Category:Yanfly_Engine_Plugins" title="Category:Yanfly Engine Plugins">Yanfly Engine Plugins</a> library.
+</p><p><a href="https://www.patreon.com/Yanfly" target="_blank"><img src="http://yanfly.moe/img/PatreonYanfly.png" /></a>
+</p><p><a rel="nofollow" class="external text" href="https://www.patreon.com/Yanfly?ty=h">Click here if you want to help support Team Yanfly on Patreon.</a>
+</p>
+<h2><span class="mw-headline" id="Warning_for_RPG_Maker_MZ_Users">Warning for RPG Maker MZ Users</span></h2>
+<p><a href="/wiki/File:Warning.jpg" class="image"><img alt="Warning.jpg" src="/wiki/images/thumb/1/10/Warning.jpg/300px-Warning.jpg" width="300" height="300" srcset="/wiki/images/thumb/1/10/Warning.jpg/450px-Warning.jpg 1.5x, /wiki/images/thumb/1/10/Warning.jpg/600px-Warning.jpg 2x" /></a>
+</p><p>If you are using <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a> and <a href="/wiki/VisuStella_MZ" title="VisuStella MZ">VisuStella MZ</a>, the following code may or <b>MAY NOT</b> work as this Tips &amp; Tricks is made for <a href="/wiki/RPG_Maker_MV" title="RPG Maker MV">RPG Maker MV</a>. <a href="/wiki/VisuStella_MZ" title="VisuStella MZ">VisuStella MZ</a> is <b>NOT</b> responsible if this Tips &amp; Trick does not work because the code base for <a href="/wiki/RPG_Maker_MV" title="RPG Maker MV">RPG Maker MV</a> and <a href="/wiki/RPG_Maker_MZ" title="RPG Maker MZ">RPG Maker MZ</a> are different and the code base between <a href="/wiki/Yanfly_Engine_Plugins" class="mw-redirect" title="Yanfly Engine Plugins">Yanfly Engine Plugins</a> and <a href="/wiki/VisuStella_MZ" title="VisuStella MZ">VisuStella MZ</a> is even more drastically different.
+</p>
+<h2><span class="mw-headline" id="Instructions">Instructions</span></h2>
+<p>Follow video instructions.
+</p><p>Copy and Paste Code here:
+</p>
+<pre>&lt;Custom Apply Effect&gt;
+if (target.isActor()) {
+  var ring = $dataArmors[1541];
+  if (target.hasArmor(ring)) {
+    target.discardEquip(ring);
+    target.startAnimation(42);
+    var hp = Math.floor(target.mhp * 0.25);
+    target.gainHp(hp);
+    target.startDamagePopup();
+  }
+}
+&lt;/Custom Apply Effect&gt;
+</pre>
+<p>Enjoy!
+</p>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20240815090432
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.022 seconds
+Real time usage: 0.028 seconds
+Preprocessor visited node count: 42/1000000
+Preprocessor generated node count: 206/1000000
+Post‐expand include size: 5128/2097152 bytes
+Template argument size: 429/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2277/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    6.850      1 Template:Yanfly_Tips_&amp;_Tricks_MV
+100.00%    6.850      1 -total
+ 40.64%    2.784      1 Template:TOCright
+ 20.41%    1.398      1 Template:TopBanner
+ 19.52%    1.337      1 Template:Tips_And_Tricks_Warning_MZ
+-->
+
+<!-- Saved in parser cache with key yanfly_mw4-mw_:pcache:idhash:842-0!canonical and timestamp 20240815090432 and revision id 2555
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.yanfly.moe/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;oldid=2555">http://www.yanfly.moe/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;oldid=2555</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Display_templates" title="Category:Display templates">Display templates</a></li><li><a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks" title="Category:RPG Maker MV Plugin Tips &amp; Tricks">RPG Maker MV Plugin Tips &amp; Tricks</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Phoenix+Ring+%28MV+Plugin+Tips+%26+Tricks%29" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/wiki/index.php?title=Talk:Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/wiki/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Yanfly.moe Wiki" title="Search Yanfly.moe Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Assets_.26_Resources" aria-labelledby="p-Assets_.26_Resources-label">
+			<h3 id="p-Assets_.26_Resources-label">Assets &amp; Resources</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.A8All-Assets"><a href="/wiki/Category:RPG_Maker_Graphic_Assets">🎨All Assets</a></li><li id="n-.F0.9F.91.B9.C3.86kashics"><a href="/wiki/%C3%86kashics_Librarium">👹Ækashics</a></li><li id="n-.F0.9F.90.BACaz-Wolf"><a href="/wiki/Caz_Wolf">🐺Caz Wolf</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.8C.BBSample-Game"><a href="/wiki/VisuStella_Sample_Game_Project">🌻Sample Game</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MZ.29" aria-labelledby="p-Plugin_Libraries_.28MZ.29-label">
+			<h3 id="p-Plugin_Libraries_.28MZ.29-label">Plugin Libraries (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MZ_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.8E.ADVisuStella-MZ"><a href="/wiki/VisuStella_MZ">🎭VisuStella MZ</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-MZ_Plugin_Help" aria-labelledby="p-MZ_Plugin_Help-label">
+			<h3 id="p-MZ_Plugin_Help-label">MZ Plugin Help</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.99.E2.80.8D.E2.99.80.EF.B8.8FInstalling-Plugins"><a href="/wiki/How_to_Install_Plugins_RPG_Maker_MZ">🧙‍♀️Installing Plugins</a></li><li id="n-.F0.9F.94.84Updating-Plugins"><a href="/wiki/How_to_Update_Plugins_RPG_Maker_MZ">🔄Updating Plugins</a></li><li id="n-.F0.9F.95.B5.EF.B8.8FTroubleshooting"><a href="/wiki/Troubleshooting_Plugins_RPG_Maker_MZ">🕵️Troubleshooting</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MZ.29" aria-labelledby="p-Reference_List_.28MZ.29-label">
+			<h3 id="p-Reference_List_.28MZ.29-label">Reference List (MZ)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.93.9AChangelog"><a href="/wiki/VisuStella_MZ_Changelog">📚Changelog</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MZ)">📔Notetags</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MZ)">🐧Plugin Commands</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MZ)">🧮Text Codes</a></li><li id="n-.F0.9F.93.9AGlossary"><a href="/wiki/Glossary">📚Glossary</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Plugin_Libraries_.28MV.29" aria-labelledby="p-Plugin_Libraries_.28MV.29-label">
+			<h3 id="p-Plugin_Libraries_.28MV.29-label">Plugin Libraries (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.96.A5.EF.B8.8FAll-Plugins"><a href="/wiki/Category:RPG_Maker_MV_Plugins">🖥️All Plugins</a></li><li id="n-.F0.9F.90.8FAries-of-Sheratan"><a href="/wiki/Aries_of_Sheratan">🐏Aries of Sheratan</a></li><li id="n-.F0.9F.8E.8EArisu.27s-Dollhouse"><a href="/wiki/Arisu%27s_Dollhouse">🎎Arisu's Dollhouse</a></li><li id="n-.F0.9F.91.93Atelier-Irina"><a href="/wiki/Atelier_Irina">👓Atelier Irina</a></li><li id="n-.F0.9F.91.BCFallen-Angel-Olivia"><a href="/wiki/Fallen_Angel_Olivia">👼Fallen Angel Olivia</a></li><li id="n-.F0.9F.8E.ADVisuStella"><a href="/wiki/Visustella">🎭VisuStella</a></li><li id="n-.F0.9F.90.87Yanfly-Engine"><a href="/wiki/Yanfly_Engine_Plugins">🐇Yanfly Engine</a></li><li id="n-.F0.9F.90.B0Tips-.26-Tricks"><a href="/wiki/Category:RPG_Maker_MV_Plugin_Tips_%26_Tricks">🐰Tips &amp; Tricks</a></li><li id="n-.F0.9F.93.BASample-Projects"><a href="/wiki/Category:Sample_Projects_(MV)">📺Sample Projects</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Reference_List_.28MV.29" aria-labelledby="p-Reference_List_.28MV.29-label">
+			<h3 id="p-Reference_List_.28MV.29-label">Reference List (MV)</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.8E.ACAction-Sequences"><a href="/wiki/Category:Action_Sequences_(MV)">🎬Action Sequences</a></li><li id="n-.F0.9F.92.ACComment-Tags"><a href="/wiki/Category:Comment_Tags_(MV)">💬Comment Tags</a></li><li id="n-.F0.9F.8D.8EMain-Menu-Intgr."><a href="/wiki/Category:Main_Menu_Manager_Integration_(MV)">🍎Main Menu Intgr.</a></li><li id="n-.F0.9F.8C.99Lunatic-Mode"><a href="/wiki/Category:Lunatic_Mode_(MV)">🌙Lunatic Mode</a></li><li id="n-.F0.9F.93.94Notetags"><a href="/wiki/Category:Notetags_(MV)">📔Notetags</a></li><li id="n-.F0.9F.96.B1.EF.B8.8FOptions-Integration"><a href="/wiki/Category:Options_Core_Integration_(MV)">🖱️Options Integration</a></li><li id="n-.F0.9F.90.A7Plugin-Commands"><a href="/wiki/Category:Plugin_Commands_(MV)">🐧Plugin Commands</a></li><li id="n-.F0.9F.8E.AEScript-Calls"><a href="/wiki/Category:Script_Calls_(MV)">🎮Script Calls</a></li><li id="n-.F0.9F.A7.AEText-Codes"><a href="/wiki/Category:Text_Codes_(MV)">🧮Text Codes</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Affiliate" aria-labelledby="p-Affiliate-label">
+			<h3 id="p-Affiliate-label">Affiliate</h3>
+			<div class="body">
+								<ul>
+					<li id="n-.F0.9F.A7.91.E2.80.8D.F0.9F.A4.9D.E2.80.8D.F0.9F.A7.91Affiliate-Websites"><a href="/wiki/Affiliate_Websites">🧑‍🤝‍🧑Affiliate Websites</a></li><li id="n-.F0.9F.8E.B2Afilliates.27-Games"><a href="/wiki/Afilliates%27_Games">🎲Afilliates' Games</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;oldid=2555" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/wiki/index.php?title=Phoenix_Ring_(MV_Plugin_Tips_%26_Tricks)&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 5 July 2019, at 14:13.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/wiki/My_wiki:Privacy_policy" title="My wiki:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/My_wiki:About" title="My wiki:About">About Yanfly.moe Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/My_wiki:General_disclaimer" title="My wiki:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/wiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.022","walltime":"0.028","ppvisitednodes":{"value":42,"limit":1000000},"ppgeneratednodes":{"value":206,"limit":1000000},"postexpandincludesize":{"value":5128,"limit":2097152},"templateargumentsize":{"value":429,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2277,"limit":5000000},"timingprofile":["100.00%    6.850      1 Template:Yanfly_Tips_\u0026amp;_Tricks_MV","100.00%    6.850      1 -total"," 40.64%    2.784      1 Template:TOCright"," 20.41%    1.398      1 Template:TopBanner"," 19.52%    1.337      1 Template:Tips_And_Tricks_Warning_MZ"]},"cachereport":{"timestamp":"20240815090432","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":84});});</script>
+	</body>
+</html>
