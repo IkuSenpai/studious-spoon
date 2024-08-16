@@ -1,0 +1,92 @@
+So first up, traits:
+
+Rates
+Element Rate: Determines the multiplier for damage taken from a given element for the battler affected by the object this trait is placed on. The dropdown will have a selection for each entry you've created under "Elements" in the Types tab. The default value for each element is 100%; a value higher than 100% will cause the battler to take increased damage, and a value less than 100% will reduce damage. It is not possible to have a value below 0%, so native absorption can't be achieved with the default engine. The trait is multiplicative, so if you have a trait that makes fire deal 200% damage, and then another trait that makes it deal 95% damage, it'll end up dealing 95% of 200%, or 190%. The possible value range per individual trait is 0%-1000%.
+Debuff Rate: Determines the success rate for debuff effects for a given parameter. The dropdown is hardcoded with the "main" parameters: Max HP, Max MP, Attack, Defence, M. Attack, M. Defence, Agility, and Luck. As with Element Rate, this is multiplicative when applying multiple instances of the same debuff rate trait, and the possible range is 0%-1000%.
+State Rate: Determines the success rate of applying a state. The dropdown values here are populated from the States tab. As with the previous two, multiple traits stack multiplicatively and it's a 0%-1000% range.
+State Resist: Determines states that the possessor of the trait will be completely immune to. The dropdown is populated from the States tab, and there are no further value inputs besides the state choice.
+Param
+Parameter: As with Debuff Rate, the dropdown is hardcoded for the main parameters, multiple traits stack multiplicatively and the range is 0%-1000%.
+Agility - Has a linear effect on skill speed; party/troop average agility is used to calculate the chance of a surprise/preemptive attack. If the party's average agi is higher than or equal to the enemy's, there's a 5% chance of a preemptive attack (3% normally) and a 3% chance of being ambushed (5% normally).
+Luck - Has a minor effect on success rates for adding attack states and debuffing. The multiplier is 1 + (subject's luck - target's luck) * 0.001, or in other words success chance is increased by 0.1% of the difference in luck between subject and target, to a minimum modifier of 0%.
+Ex-Parameter
+*All of these stack additively and have a possible value range of -1000% to 1000%
+Hit Rate - Determines the chance of hitting a target. This is only applied to skills or items with a hit type of "Physical Attack"; Certain Hit and Magical Attack ignore it.
+Evasion Rate - Determines the chance of evading an attack. This is only applied to "Physical Attack".
+Critical Rate - Determines the chance of a critical hit.
+Critical Evasion - Determines the chance of evading a critical hit.
+The success of a critical hit for skills/items that are capable of dealing criticals is calculated as: subject's crit rate * (1 - target's critical evasion). This means that negative crit evasion will increase crit chance.
+Magic Evasion - Determines the chance of evading a magical attack. This only applies to skills or items with a hit type of "Magical Attack.
+Magic Reflection - Determines the chance of reflecting magic back at the caster. Note that the engine doesn't differentiate between hostile and friendly spells, so this will reflect healing as well as damage.
+Counter Attack - Determines the chance of retaliating against a physical attack with a physical attack of the target's own. This requires the target to be capable of movement to activate.
+HP Regeneration - Determines the percentage of HP that will be regenerated each regeneration tick. This happens at the end of each turn if in battle, or every 20 steps on the map.
+MP Regeneration - As above but for MP.
+TP Regeneration - As above but for TP.
+Sp-Parameter
+* All of these stack multiplicatively and have a range of 0%-1000%
+Target Rate - Determines the chance of the battler being attacked by enemies. The way this works is that a random number is generated between 0 and the sum of all members' Target Rates. Then the engine loops through each member, subtracting that member's Target Rate from the random number. Once the number is reduced to 0 or less, that member is the one targeted.
+Guard Effect - Determines the effectiveness of the Guard command. The default behaviour is for Guard to reduce damage taken by half. Guard Effect will then increase the reduction if above 100%, or decrease it if below.
+Recovery Effect - Determines the effectiveness of healing effects from skills or items.
+Pharmacology - Determines the effectiveness of items that recover HP or MP (has no effect on skills). When using an item in the menu, the "user" is considered to be the party member with the highest Pharmacology who is not currently movement-restricted. This is to ensure that you get the best possible value out of healing items outside of battle. This stacks with Recovery Effect and is applied after it.
+MP Cost Rate - Determines the multiplier for skill MP costs.
+TP Charge Rate - Determines the multiplier for TP gained via actions in battle. This applies to both the TP gained from taking damage and the TP gain for using a skill or item.
+Physical Damage - Determines the multiplier for physical damage taken from skills and items. Only applies if the attack type is "Physical Attack".
+Magic Damage - Determines the multiplier for magical damage taken from skills and items. Only applies if the attack type is "Magical Attack".
+Floor Damage - Determines the multiplier for damage taken from damaging floors. Normal floor damage is 10, then the floor damage rate is applied.
+Experience - Determines the multiplier for experience gained. This will also apply to benched party members if they've been set to gain experience when not in the party.
+Attack
+Attack Element - Determines which element the battler's Attack command will be considered to be. Has a single dropdown populated from the Types tab.
+Attack State - Adds a chance of inflicting a state when using the Attack command. The state dropdown is populated from the States tab, with the chance input ranging from 0%-1000% and stacking additively.
+Attack Speed - Determines a value added to the action speed when using the Attack command. This stacks additively and ranges from -1000 to 1000.
+Attack Times + - Increases the number of times the Attack command will hit. This stacks additively and ranges from -9 to 9.
+Attack Skill - This trait will change the battler's normal attack skill to the one selected, and populates from the Skills tab. With multiple instances of the trait, the skill will be taken as the one with the highest database ID. (this doesn't exist in MV)
+Skill
+Add Skill Type - Unlocks a given skill type for the battler, allowing them to use skills belonging to it if learned. The dropdown populates from the "Skill Types" list in the Types tab.
+Seal Skill Type - Prevents a given skill type from being used.
+Add Skill - Adds a particular skill to the battler's learned skill list. Populates from the Skills tab. Note that the battler must still be able to use the skill type the skill belongs to in order to use it.
+Seal Skill - Prevents a particular skill from being used.
+Equip
+Equip Weapon - Unlocks a given weapon type for the battler, allowing them to equip it. The dropdown populates from the "Weapon Types" list in the Types tab.
+Equip Armor - Unlocks a given armour type for the battler, allowing them to equip it. The dropdown populates from the "Armor Types" list in the Types tab.
+Lock Equip - Locks a particular equipment slot, preventing the existing item from being changed. The dropdown populates from the "Equipment Types" list in the Types tab.
+Seal Equip - Seals a particular equipment slot, disallowing any item from being equipped there. Any existing item will be removed upon the addition of the trait.
+Slot Type - The only current option here is "Dual Wield", which replaces the battler's second equipment slot with a copy of the first one (which will almost certainly allow the equipping of a second weapon and remove the shield slot. This will act differently if your first and second equipment types are not Weapon and Shield).
+Other
+Action Times + - Increases the chance that a character will be able to take multiple actions in a turn. Each copy of the trait will be calculated separately, and if a random number from 0-1 is less than the percentage chance of the current trait expressed as a decimal, an additional action will be granted. Ranges from 0%-100%.
+
+Special Flag -
+Auto Battle - Causes the battler to act autonomously. Each turn, they will evaluate the actions available to them and take the one calculated to have the greatest potential effect on the most effective target.
+Guard - Having this trait will cause the battler to apply the Guard effect without having to use the command for it.
+Substitute - The battler with this trait will take damage in place of allies who have 25% HP or less. This will not happen for skills or items set to "Certain Hit".
+Preserve TP - The battler with this trait will retain their TP value at the end of battle and carry it over into the next. Without this trait, initial TP is set to a random value from 0-24.
+Collapse Effect - Only applies to enemies. Changes the visual effect they produce when defeated. The "Boss" setting will cause the sprite to do a purple-tinted ribbon split animation as it sinks into the ground. "Instant" will just cause the sprite to immediately vanish, and "No Disappear" will prevent the sprite from disappearing.
+
+Party Ability -
+Encounter Half - Random battles will be encountered half as often, reducing the encounter count by 0.5 each step instead of 1.
+Encounter None - Prevents random battles from happening at all.
+Cancel Surprise - Renders enemy troops unable to surprise attack the party.
+Raise Preemptive - Makes it more likely that the party will get a preemptive strike (as we saw above, it adds a 2% chance).
+Gold Double - Doubles the amount of gold dropped by enemies.
+Drop Item Double - Doubles item drop rates.
+Effects
+
+Recover
+Recover HP -Allows the skill/item to restore an amount of HP. The first input is the percentage of recovery, the second input is for a flat value. You can use just percentage, just flat, or both together. The percentage input ranges from -100% to 100%, and the flat rate input ranges from -99999 to 99999.
+Recover MP - Same thing but for MP. The flat input range is -9999 to 9999.
+Gain TP - The battler will gain the input amount of TP when this skill/item is used. Ranges from 0-100.
+State
+Add State - Provides the skill/item with a certain chance of applying a given state, ranging from 0%-100%. The dropdown mostly populates from the States tab, but also adds an always-present "Normal Attack" option. If this effect is added, the skill or item will be able to apply any states that the battler could usually add when using the Attack command, at the same success rates as an attack would have.
+Remove State - Provides the skill/item with a certain chance of removing a given state, ranging from 0%-100%. The dropdown populates from the States tab.
+
+Param
+Add Buff - Adds a buff to the specified parameter for a given number of turns. The turn input ranges from 0-1000. Buffs can stack up to 2 stacks per parameter, giving a +25% bonus for each stack (for a maximum of +50%)
+Add Debuff - This is the opposite of Add Buff, with the same inputs and ranges, the difference being that stats are reduced by 25%/50% instead of increased. Debuffs and buffs cancel each other out.
+Remove Buff - This effect removes any existing buff on the given parameter, regardless of how many turns it has remaining. It will have no effect if the parameter is debuffed.
+Remove Debuff - The same but for debuffs.
+Other
+Special Effect -
+Escape - This is the only current option for the effect, and will immediately cause the user's party to flee. This will always succeed.
+Grow - Permanently increases the chosen parameter by the specified value, ranging from 1-1000.
+Learn Skill - Teaches the chosen skill to the user. Works the same way as the Add Skill trait.
+Common Event - Calls the specified common event.
+Hopefully this will be a useful resource! I've especially seen people tripped up by whether elemental rate is for incoming or outgoing damage, how exactly ex-parameters are used in the default engine, and exactly how Action Times + works. Let me know if there's anything else about the engine you need to have demystified, or if there was anything I would have explained better!
